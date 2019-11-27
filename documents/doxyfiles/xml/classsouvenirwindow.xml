@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classsouvenirwindow" kind="class" language="C++" prot="public">
+    <compoundname>souvenirwindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsouvenirwindow_1a1ee991740f23f2039cd9333eb9c900a9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ui_1_1souvenirwindow" kindref="compound">Ui::souvenirwindow</ref> *</type>
+        <definition>Ui::souvenirwindow* souvenirwindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="59" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsouvenirwindow_1aa1a9d7bf7cef3985e30cee8ad9572865" prot="private" static="no" mutable="no">
+        <type>QVector&lt; QString &gt;</type>
+        <definition>QVector&lt;QString&gt; souvenirwindow::displayList</definition>
+        <argsstring></argsstring>
+        <name>displayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="60" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsouvenirwindow_1ab3f46201ddb773252a476c2ece9043be" prot="private" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="structsouvenir" kindref="compound">souvenir</ref> &gt;</type>
+        <definition>QVector&lt;souvenir&gt; souvenirwindow::souvenirs</definition>
+        <argsstring></argsstring>
+        <name>souvenirs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="61" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsouvenirwindow_1a3cd0bb3522ea77ff5d81552b2f11c491" prot="private" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="structsouvenir" kindref="compound">souvenir</ref> &gt;</type>
+        <definition>QVector&lt;souvenir&gt; souvenirwindow::cartSouvenirs</definition>
+        <argsstring></argsstring>
+        <name>cartSouvenirs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="62" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsouvenirwindow_1a47f68e76949d38b4eb0cca6bfd5f2e1c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_database" kindref="compound">Database</ref> *</type>
+        <definition>Database* souvenirwindow::database</definition>
+        <argsstring></argsstring>
+        <name>database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="63" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsouvenirwindow_1afeac7d7ce910b5225d5df8de7eb5177a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int souvenirwindow::currentStadium</definition>
+        <argsstring></argsstring>
+        <name>currentStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="64" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsouvenirwindow_1a0361cd76caf605376471a0f389872eac" prot="private" static="no" mutable="no">
+        <type>QMap&lt; <ref refid="structcart_names" kindref="compound">cartNames</ref>, double &gt;</type>
+        <definition>QMap&lt;cartNames, double&gt; souvenirwindow::cart</definition>
+        <argsstring></argsstring>
+        <name>cart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="65" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsouvenirwindow_1a7150aeeaf1e1739e28aca0bbba05d41e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_checkout_window" kindref="compound">CheckoutWindow</ref></type>
+        <definition>CheckoutWindow souvenirwindow::checkout</definition>
+        <argsstring></argsstring>
+        <name>checkout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="66" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsouvenirwindow_1a2209f7bf8eb395104c2106cb6432cfc2" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>souvenirwindow::souvenirwindow</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>souvenirwindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="40" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp" bodystart="4" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classsouvenirwindow_1a2032d9c7ea3a6efa9d3676057b4ca2af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void souvenirwindow::LoadDisplayList</definition>
+        <argsstring>()</argsstring>
+        <name>LoadDisplayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="41" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp" bodystart="18" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classsouvenirwindow_1acc47fb72b88ad2ce964e771210e88c6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>souvenirwindow::~souvenirwindow</definition>
+        <argsstring>()</argsstring>
+        <name>~souvenirwindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="42" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classsouvenirwindow_1a9571a2f016d2457c2f13d46e60399907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void souvenirwindow::LoadWindow</definition>
+        <argsstring>(QVector&lt; QString &gt; stadiums)</argsstring>
+        <name>LoadWindow</name>
+        <param>
+          <type>QVector&lt; QString &gt;</type>
+          <declname>stadiums</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="44" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp" bodystart="31" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classsouvenirwindow_1a8006ad969bf7154ca93631671c88c8da" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void souvenirwindow::on_nextStadium_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_nextStadium_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="48" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp" bodystart="102" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="slot" id="classsouvenirwindow_1aa8dc2db9b0f529b06cf85661f9d6b53e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void souvenirwindow::on_previousStadium_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_previousStadium_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="50" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp" bodystart="127" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="slot" id="classsouvenirwindow_1a93b469121004e9c88cc60043a3b5a18d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void souvenirwindow::on_addToCart_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_addToCart_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="52" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp" bodystart="148" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="slot" id="classsouvenirwindow_1a2c4e8f647f54b64a9b52c9ae80f9ed4f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void souvenirwindow::on_deleteFromCart_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_deleteFromCart_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="54" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="slot" id="classsouvenirwindow_1a4d931e2b057753673cb6eb5c34049def" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void souvenirwindow::on_checkOut_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_checkOut_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="56" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp" bodystart="169" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="80">
+        <label>souvenirwindow</label>
+        <link refid="classsouvenirwindow"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="82">
+        <label>souvenirwindow</label>
+        <link refid="classsouvenirwindow"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="36" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="35" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classsouvenirwindow_1a0361cd76caf605376471a0f389872eac" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>cart</name></member>
+      <member refid="classsouvenirwindow_1a3cd0bb3522ea77ff5d81552b2f11c491" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>cartSouvenirs</name></member>
+      <member refid="classsouvenirwindow_1a7150aeeaf1e1739e28aca0bbba05d41e" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>checkout</name></member>
+      <member refid="classsouvenirwindow_1afeac7d7ce910b5225d5df8de7eb5177a" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>currentStadium</name></member>
+      <member refid="classsouvenirwindow_1a47f68e76949d38b4eb0cca6bfd5f2e1c" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>database</name></member>
+      <member refid="classsouvenirwindow_1aa1a9d7bf7cef3985e30cee8ad9572865" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>displayList</name></member>
+      <member refid="classsouvenirwindow_1a2032d9c7ea3a6efa9d3676057b4ca2af" prot="public" virt="non-virtual"><scope>souvenirwindow</scope><name>LoadDisplayList</name></member>
+      <member refid="classsouvenirwindow_1a9571a2f016d2457c2f13d46e60399907" prot="public" virt="non-virtual"><scope>souvenirwindow</scope><name>LoadWindow</name></member>
+      <member refid="classsouvenirwindow_1a93b469121004e9c88cc60043a3b5a18d" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>on_addToCart_clicked</name></member>
+      <member refid="classsouvenirwindow_1a4d931e2b057753673cb6eb5c34049def" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>on_checkOut_clicked</name></member>
+      <member refid="classsouvenirwindow_1a2c4e8f647f54b64a9b52c9ae80f9ed4f" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>on_deleteFromCart_clicked</name></member>
+      <member refid="classsouvenirwindow_1a8006ad969bf7154ca93631671c88c8da" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>on_nextStadium_clicked</name></member>
+      <member refid="classsouvenirwindow_1aa8dc2db9b0f529b06cf85661f9d6b53e" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>on_previousStadium_clicked</name></member>
+      <member refid="classsouvenirwindow_1ab3f46201ddb773252a476c2ece9043be" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>souvenirs</name></member>
+      <member refid="classsouvenirwindow_1a2209f7bf8eb395104c2106cb6432cfc2" prot="public" virt="non-virtual"><scope>souvenirwindow</scope><name>souvenirwindow</name></member>
+      <member refid="classsouvenirwindow_1a1ee991740f23f2039cd9333eb9c900a9" prot="private" virt="non-virtual"><scope>souvenirwindow</scope><name>ui</name></member>
+      <member refid="classsouvenirwindow_1acc47fb72b88ad2ce964e771210e88c6d" prot="public" virt="non-virtual"><scope>souvenirwindow</scope><name>~souvenirwindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

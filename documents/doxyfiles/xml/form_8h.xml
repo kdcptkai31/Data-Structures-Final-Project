@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="form_8h" kind="file" language="C++">
+    <compoundname>form.h</compoundname>
+    <includes local="no">QWidget</includes>
+    <includedby refid="mainwindow_8h" local="yes">C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h</includedby>
+    <includedby refid="form_8cpp" local="yes">C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/form.cpp</includedby>
+    <includedby refid="moc__form_8cpp" local="yes">C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_form.cpp</includedby>
+    <incdepgraph>
+      <node id="200">
+        <label>QWidget</label>
+      </node>
+      <node id="199">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/form.h</label>
+        <link refid="form_8h"/>
+        <childnode refid="200" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="203">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h</label>
+        <link refid="login_8h_source"/>
+      </node>
+      <node id="202">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h</label>
+        <link refid="mainwindow_8h_source"/>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/form.h</label>
+        <link refid="form_8h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_form" prot="public">Form</innerclass>
+    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>FORM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_form" kindref="compound">Form</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_form" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_form" kindref="compound">Form</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_form" kindref="compound">Form</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="class_form" kindref="compound">Form</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ui_1_1_form" kindref="compound">Ui::Form</ref><sp/>*ui;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>FORM_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/form.h"/>
+  </compounddef>
+</doxygen>

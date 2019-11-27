@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="souvenirwindow_8h" kind="file" language="C++">
+    <compoundname>souvenirwindow.h</compoundname>
+    <includes local="no">QWidget</includes>
+    <includes refid="database_8h" local="yes">database.h</includes>
+    <includes local="no">QString</includes>
+    <includes local="no">QVector</includes>
+    <includes local="no">QMap</includes>
+    <includes refid="checkoutwindow_8h" local="yes">checkoutwindow.h</includes>
+    <includes local="no">QStandardItemModel</includes>
+    <includedby refid="mainwindow_8h" local="yes">C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h</includedby>
+    <includedby refid="moc__souvenirwindow_8cpp" local="yes">C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_souvenirwindow.cpp</includedby>
+    <includedby refid="souvenirwindow_8cpp" local="yes">C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.cpp</includedby>
+    <incdepgraph>
+      <node id="630">
+        <label>QMap</label>
+      </node>
+      <node id="632">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="631">
+        <label>checkoutwindow.h</label>
+        <link refid="checkoutwindow_8h_source"/>
+        <childnode refid="620" relation="include">
+        </childnode>
+      </node>
+      <node id="621">
+        <label>database.h</label>
+        <link refid="database_8h_source"/>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="623" relation="include">
+        </childnode>
+        <childnode refid="624" relation="include">
+        </childnode>
+        <childnode refid="625" relation="include">
+        </childnode>
+        <childnode refid="626" relation="include">
+        </childnode>
+        <childnode refid="627" relation="include">
+        </childnode>
+        <childnode refid="628" relation="include">
+        </childnode>
+      </node>
+      <node id="625">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="627">
+        <label>QDebug</label>
+      </node>
+      <node id="620">
+        <label>QWidget</label>
+      </node>
+      <node id="622">
+        <label>QString</label>
+      </node>
+      <node id="624">
+        <label>QSqlRecord</label>
+      </node>
+      <node id="619">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h</label>
+        <link refid="souvenirwindow_8h"/>
+        <childnode refid="620" relation="include">
+        </childnode>
+        <childnode refid="621" relation="include">
+        </childnode>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="629" relation="include">
+        </childnode>
+        <childnode refid="630" relation="include">
+        </childnode>
+        <childnode refid="631" relation="include">
+        </childnode>
+        <childnode refid="632" relation="include">
+        </childnode>
+      </node>
+      <node id="628">
+        <label>QSqlQueryModel</label>
+      </node>
+      <node id="623">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="626">
+        <label>QFileInfo</label>
+      </node>
+      <node id="629">
+        <label>QVector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="635">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h</label>
+        <link refid="login_8h_source"/>
+      </node>
+      <node id="634">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h</label>
+        <link refid="mainwindow_8h_source"/>
+        <childnode refid="635" relation="include">
+        </childnode>
+      </node>
+      <node id="633">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h</label>
+        <link refid="souvenirwindow_8h"/>
+        <childnode refid="634" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structcart_names" prot="public">cartNames</innerclass>
+    <innerclass refid="structsouvenir" prot="public">souvenir</innerclass>
+    <innerclass refid="classsouvenirwindow" prot="public">souvenirwindow</innerclass>
+    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>The<sp/>Souvenir<sp/>Window<sp/>Class</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>*************************************************************</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>class<sp/>allows<sp/>for<sp/>the<sp/>use<sp/>of<sp/>the<sp/>souvenir<sp/>window<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>main<sp/>program.<sp/>This<sp/>interfaces<sp/>with<sp/>the<sp/>database<sp/>to<sp/>display,</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>modify,<sp/>and<sp/>change<sp/>available<sp/>souvenirs<sp/>for<sp/>a<sp/>stadium<sp/>location</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>*************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SOUVENIRWINDOW_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SOUVENIRWINDOW_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;database.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QVector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMap&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;checkoutwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QStandardItemModel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsouvenirwindow" kindref="compound">souvenirwindow</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23" refid="structcart_names" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structcart_names" kindref="compound">cartNames</ref>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>itemName;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>teamName;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27" refid="structsouvenir" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structsouvenir" kindref="compound">souvenir</ref><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>teamName;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>stadiumName;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>itemName;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>price;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classsouvenirwindow" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsouvenirwindow" kindref="compound">souvenirwindow</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classsouvenirwindow" kindref="compound">souvenirwindow</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>LoadDisplayList();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classsouvenirwindow" kindref="compound">souvenirwindow</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>LoadWindow(QVector&lt;QString&gt;<sp/>stadiums);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_nextStadium_clicked();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_previousStadium_clicked();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_addToCart_clicked();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_deleteFromCart_clicked();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_checkOut_clicked();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ui_1_1souvenirwindow" kindref="compound">Ui::souvenirwindow</ref><sp/>*ui;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>QVector&lt;QString&gt;<sp/>displayList;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>QVector&lt;souvenir&gt;<sp/>souvenirs;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>QVector&lt;souvenir&gt;<sp/>cartSouvenirs;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_database" kindref="compound">Database</ref><sp/>*database;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>currentStadium;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;cartNames,<sp/>double&gt;<sp/>cart;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_checkout_window" kindref="compound">CheckoutWindow</ref><sp/>checkout;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SOUVENIRWINDOW_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="adminlogin_8cpp" kind="file" language="C++">
+    <compoundname>adminlogin.cpp</compoundname>
+    <includes refid="adminlogin_8h" local="yes">adminlogin.h</includes>
+    <includes refid="ui__adminlogin_8h" local="yes">ui_adminlogin.h</includes>
+    <includes local="yes">qmessagebox.h</includes>
+    <includes refid="login_8h" local="yes">login.h</includes>
+    <incdepgraph>
+      <node id="44">
+        <label>QMap</label>
+      </node>
+      <node id="36">
+        <label>graph.h</label>
+        <link refid="graph_8h_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>QtWidgets/QDialog</label>
+      </node>
+      <node id="6">
+        <label>QMessageBox</label>
+      </node>
+      <node id="26">
+        <label>QtWidgets/QLabel</label>
+      </node>
+      <node id="38">
+        <label>iterator</label>
+      </node>
+      <node id="3">
+        <label>adminwindow.h</label>
+        <link refid="adminwindow_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>QObject</label>
+      </node>
+      <node id="29">
+        <label>qmessagebox.h</label>
+      </node>
+      <node id="34">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="33">
+        <label>QMainWindow</label>
+      </node>
+      <node id="30">
+        <label>login.h</label>
+        <link refid="login_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>limits.h</label>
+      </node>
+      <node id="45">
+        <label>checkoutwindow.h</label>
+        <link refid="checkoutwindow_8h_source"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>database.h</label>
+        <link refid="database_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>QtCore/QVariant</label>
+      </node>
+      <node id="9">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="28">
+        <label>QtWidgets/QPushButton</label>
+      </node>
+      <node id="27">
+        <label>QtWidgets/QLineEdit</label>
+      </node>
+      <node id="19">
+        <label>ui_adminlogin.h</label>
+        <link refid="ui__adminlogin_8h_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>QApplication</label>
+      </node>
+      <node id="2">
+        <label>QDialog</label>
+      </node>
+      <node id="17">
+        <label>QDebug</label>
+      </node>
+      <node id="43">
+        <label>QWidget</label>
+      </node>
+      <node id="25">
+        <label>QtWidgets/QHeaderView</label>
+      </node>
+      <node id="41">
+        <label>utility</label>
+      </node>
+      <node id="14">
+        <label>QString</label>
+      </node>
+      <node id="21">
+        <label>QtWidgets/QAction</label>
+      </node>
+      <node id="15">
+        <label>QSqlRecord</label>
+      </node>
+      <node id="11">
+        <label>QSqlError</label>
+      </node>
+      <node id="46">
+        <label>form.h</label>
+        <link refid="form_8h_source"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>QtWidgets/QButtonGroup</label>
+      </node>
+      <node id="4">
+        <label>QFile</label>
+      </node>
+      <node id="42">
+        <label>souvenirwindow.h</label>
+        <link refid="souvenirwindow_8h_source"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>QSqlQueryModel</label>
+      </node>
+      <node id="10">
+        <label>QSqlDriver</label>
+      </node>
+      <node id="0">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.cpp</label>
+        <link refid="adminlogin_8cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>QtWidgets/QApplication</label>
+      </node>
+      <node id="12">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="35">
+        <label>QDir</label>
+      </node>
+      <node id="5">
+        <label>QTextStream</label>
+      </node>
+      <node id="37">
+        <label>algorithm</label>
+      </node>
+      <node id="39">
+        <label>stdio.h</label>
+      </node>
+      <node id="16">
+        <label>QFileInfo</label>
+      </node>
+      <node id="31">
+        <label>QVector</label>
+      </node>
+      <node id="1">
+        <label>adminlogin.h</label>
+        <link refid="adminlogin_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;adminlogin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_adminlogin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;qmessagebox.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;login.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">adminLogin::adminLogin(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classadmin_login" kindref="compound">adminLogin</ref>)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">adminLogin::~adminLogin()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>adminLogin::on_pushButton_clicked()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>username<sp/>=<sp/>ui-&gt;lineEdit_User-&gt;text();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>password<sp/>=<sp/>ui-&gt;lineEdit_Pass-&gt;text();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(username<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;admin&quot;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>password<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;admin&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;close();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>adminwindow.show();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;label_3-&gt;setText(</highlight><highlight class="stringliteral">&quot;WRONG<sp/>Password<sp/>or<sp/>Username!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//setStyleSheet(&quot;QMessageBox{background:<sp/>rgb(0,0,0);<sp/><sp/>border:<sp/>none;font-family:<sp/>Arial;<sp/>font-style:<sp/>normal;<sp/><sp/>font-size:<sp/>15pt;<sp/>color:<sp/>#ffffff<sp/>;<sp/>}&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setStyleSheet(&quot;QMessageBox{color:<sp/>rgb(255,<sp/>255,<sp/>255);}&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox::warning(this,<sp/>&quot;Login&quot;,<sp/>&quot;Username<sp/>or<sp/>passsword<sp/>are<sp/>incorrect.&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>adminLogin::on_pushButton_back_clicked()</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classlogin" kindref="compound">login</ref><sp/>*back<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classlogin" kindref="compound">login</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>back-&gt;show();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;close();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.cpp"/>
+  </compounddef>
+</doxygen>

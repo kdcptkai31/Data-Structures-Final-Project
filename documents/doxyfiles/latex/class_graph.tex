@@ -1,0 +1,322 @@
+\hypertarget{class_graph}{}\section{Graph Class Reference}
+\label{class_graph}\index{Graph@{Graph}}
+
+
+The \mbox{\hyperlink{class_graph}{Graph}} class.  
+
+
+
+
+{\ttfamily \#include $<$graph.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_graph_ae4c72b8ac4d693c49800a4c7e273654f}\label{class_graph_ae4c72b8ac4d693c49800a4c7e273654f}} 
+\mbox{\hyperlink{class_graph_ae4c72b8ac4d693c49800a4c7e273654f}{Graph}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_ae4c72b8ac4d693c49800a4c7e273654f}{Graph\+::\+Graph}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_graph_a6ad227abe45e368bf6a795f58434f859}{Add\+Edge}} (Q\+String node\+From, Q\+String node\+To, int edge\+Weight)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_a6ad227abe45e368bf6a795f58434f859}{Graph\+::\+Add\+Edge}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_graph_a6fc3cb2886337e235a6f7a417e3d6c62}{Add\+Node}} (Q\+String node\+Name)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_a6fc3cb2886337e235a6f7a417e3d6c62}{Graph\+::\+Add\+Node}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_graph_a389281c21ce4288c795f303532d0379a}\label{class_graph_a389281c21ce4288c795f303532d0379a}} 
+void \mbox{\hyperlink{class_graph_a389281c21ce4288c795f303532d0379a}{Set\+Matrix}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_a389281c21ce4288c795f303532d0379a}{Graph\+::\+Set\+Matrix}} Sets the matrix with the given specifications. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_graph_a9f99e0a20840bf8290195981904c9a5d}\label{class_graph_a9f99e0a20840bf8290195981904c9a5d}} 
+bool {\bfseries is\+Connected} (Q\+String node\+From, Q\+String node\+To)
+\item 
+bool \mbox{\hyperlink{class_graph_a981460a9962c0cccada8459347a5fd5d}{is\+Node}} (Q\+String node\+Name)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_a981460a9962c0cccada8459347a5fd5d}{Graph\+::is\+Node}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_graph_a2f023d74e3da24e821a2dd1ffa410bb0}\label{class_graph_a2f023d74e3da24e821a2dd1ffa410bb0}} 
+int {\bfseries Get\+Weight} (Q\+String node\+From, Q\+String node\+To)
+\item 
+\mbox{\Hypertarget{class_graph_a1848b068d8da7c3b1507bb5aa2630bc8}\label{class_graph_a1848b068d8da7c3b1507bb5aa2630bc8}} 
+int {\bfseries Get\+Distance} ()
+\item 
+\mbox{\Hypertarget{class_graph_ae7f6e89dbf220a7d08067e691b46f37e}\label{class_graph_ae7f6e89dbf220a7d08067e691b46f37e}} 
+int {\bfseries Get\+Total\+Nodes} ()
+\item 
+int \mbox{\hyperlink{class_graph_a7f7b9f3d4992166ce4b52a1ea7d9c816}{Get\+Vertex}} (Q\+String node\+Name)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_a7f7b9f3d4992166ce4b52a1ea7d9c816}{Graph\+::\+Get\+Vertex}}. \end{DoxyCompactList}\item 
+Q\+String \mbox{\hyperlink{class_graph_a3102766a44bdc521d67dc1ac57c948b4}{Get\+Node\+Name}} (int vertex)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_a3102766a44bdc521d67dc1ac57c948b4}{Graph\+::\+Get\+Node\+Name}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_graph_a4882a1652e182b65d8bc67585cbb1631}\label{class_graph_a4882a1652e182b65d8bc67585cbb1631}} 
+int $\ast$ {\bfseries Get\+Vertices} ()
+\item 
+\mbox{\Hypertarget{class_graph_a99767655bcaea44c18b136363c521dfc}\label{class_graph_a99767655bcaea44c18b136363c521dfc}} 
+Q\+Vector$<$ \mbox{\hyperlink{struct_node}{Node}} $>$ {\bfseries Get\+Nodes} ()
+\item 
+\mbox{\Hypertarget{class_graph_a7bd3d4a366c25abc6ad74851e48fda8e}\label{class_graph_a7bd3d4a366c25abc6ad74851e48fda8e}} 
+Q\+Vector$<$ Q\+String $>$ {\bfseries Get\+Visited\+Nodes} ()
+\item 
+void \mbox{\hyperlink{class_graph_aa13f9b10f1dd61da066dd59901598e56}{D\+FS}} (Q\+String node\+Name, Q\+Vector$<$ Q\+String $>$ \&stadiums)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_aa13f9b10f1dd61da066dd59901598e56}{Graph\+::\+D\+FS}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_graph_a0e0f425a2a7a20151f1fcf537c32d7b5}{B\+FS}} (Q\+String node\+Name, Q\+Vector$<$ Q\+String $>$ \&stadiums)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_a0e0f425a2a7a20151f1fcf537c32d7b5}{Graph\+::\+B\+FS}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_graph_ab4b197d26dfb1a53e14f3e5197053653}{Prim\+M\+ST}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_ab4b197d26dfb1a53e14f3e5197053653}{Graph\+::\+Prim\+M\+ST}}. \end{DoxyCompactList}\item 
+Q\+Vector$<$ int $>$ \mbox{\hyperlink{class_graph_ac4e39e620f96920a506b0d8ce9ee17f1}{Dijkstra}} (int source\+Vertex, Q\+Vector$<$ Q\+String $>$ \&stadiums)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_ac4e39e620f96920a506b0d8ce9ee17f1}{Graph\+::\+Dijkstra}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_graph_a3bb92a2d9cba33ba8e960eccb9c34f78}{Perform\+Complete\+Dijkstra}} (int source\+Vertex, int base\+Case, Q\+Vector$<$ Q\+String $>$ \&stadiums)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_a3bb92a2d9cba33ba8e960eccb9c34f78}{Graph\+::\+Perform\+Complete\+Dijkstra}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_graph_a3b0a495ac7703b4b7f12dc8e6e490f3b}{Perform\+From\+To\+Dijkstra}} (int from\+Vertex, int to\+Vertex)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_graph_a3b0a495ac7703b4b7f12dc8e6e490f3b}{Graph\+::\+Perform\+From\+To\+Dijkstra}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \mbox{\hyperlink{class_graph}{Graph}} class. 
+
+The graph class handles all of the functions and data related to the graphing function (finding shortest routes, most efficient, etc) for the N\+FL program 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_graph_a6ad227abe45e368bf6a795f58434f859}\label{class_graph_a6ad227abe45e368bf6a795f58434f859}} 
+\index{Graph@{Graph}!Add\+Edge@{Add\+Edge}}
+\index{Add\+Edge@{Add\+Edge}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{Add\+Edge()}{AddEdge()}}
+{\footnotesize\ttfamily void Graph\+::\+Add\+Edge (\begin{DoxyParamCaption}\item[{Q\+String}]{node\+From,  }\item[{Q\+String}]{node\+To,  }\item[{int}]{edge\+Weight }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_a6ad227abe45e368bf6a795f58434f859}{Graph\+::\+Add\+Edge}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+From} & \\
+\hline
+{\em node\+To} & \\
+\hline
+{\em edge\+Weight} & Simple member function to add a new edge \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{class_graph_a6ad227abe45e368bf6a795f58434f859_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a6fc3cb2886337e235a6f7a417e3d6c62}\label{class_graph_a6fc3cb2886337e235a6f7a417e3d6c62}} 
+\index{Graph@{Graph}!Add\+Node@{Add\+Node}}
+\index{Add\+Node@{Add\+Node}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{Add\+Node()}{AddNode()}}
+{\footnotesize\ttfamily void Graph\+::\+Add\+Node (\begin{DoxyParamCaption}\item[{Q\+String}]{node\+Name }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_a6fc3cb2886337e235a6f7a417e3d6c62}{Graph\+::\+Add\+Node}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Name} & Adds a new node \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_graph_a0e0f425a2a7a20151f1fcf537c32d7b5}\label{class_graph_a0e0f425a2a7a20151f1fcf537c32d7b5}} 
+\index{Graph@{Graph}!B\+FS@{B\+FS}}
+\index{B\+FS@{B\+FS}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{B\+F\+S()}{BFS()}}
+{\footnotesize\ttfamily void Graph\+::\+B\+FS (\begin{DoxyParamCaption}\item[{Q\+String}]{node\+Name,  }\item[{Q\+Vector$<$ Q\+String $>$ \&}]{stadiums }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_a0e0f425a2a7a20151f1fcf537c32d7b5}{Graph\+::\+B\+FS}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Name} & Implementation of the B\+FS graph function \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_graph_aa13f9b10f1dd61da066dd59901598e56}\label{class_graph_aa13f9b10f1dd61da066dd59901598e56}} 
+\index{Graph@{Graph}!D\+FS@{D\+FS}}
+\index{D\+FS@{D\+FS}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{D\+F\+S()}{DFS()}}
+{\footnotesize\ttfamily void Graph\+::\+D\+FS (\begin{DoxyParamCaption}\item[{Q\+String}]{node\+Name,  }\item[{Q\+Vector$<$ Q\+String $>$ \&}]{stadiums }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_aa13f9b10f1dd61da066dd59901598e56}{Graph\+::\+D\+FS}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Name} & Simple D\+FS Graphing Function \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_graph_ac4e39e620f96920a506b0d8ce9ee17f1}\label{class_graph_ac4e39e620f96920a506b0d8ce9ee17f1}} 
+\index{Graph@{Graph}!Dijkstra@{Dijkstra}}
+\index{Dijkstra@{Dijkstra}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{Dijkstra()}{Dijkstra()}}
+{\footnotesize\ttfamily Q\+Vector$<$ int $>$ Graph\+::\+Dijkstra (\begin{DoxyParamCaption}\item[{int}]{source\+Vertex,  }\item[{Q\+Vector$<$ Q\+String $>$ \&}]{stadiums }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_ac4e39e620f96920a506b0d8ce9ee17f1}{Graph\+::\+Dijkstra}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source\+Vertex} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+distances Out implementation of the Dijkstra\textquotesingle{}s algorithm 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_graph_ac4e39e620f96920a506b0d8ce9ee17f1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a3102766a44bdc521d67dc1ac57c948b4}\label{class_graph_a3102766a44bdc521d67dc1ac57c948b4}} 
+\index{Graph@{Graph}!Get\+Node\+Name@{Get\+Node\+Name}}
+\index{Get\+Node\+Name@{Get\+Node\+Name}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{Get\+Node\+Name()}{GetNodeName()}}
+{\footnotesize\ttfamily Q\+String Graph\+::\+Get\+Node\+Name (\begin{DoxyParamCaption}\item[{int}]{vertex }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_a3102766a44bdc521d67dc1ac57c948b4}{Graph\+::\+Get\+Node\+Name}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertex} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+node\+Name at vertext location 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_a3102766a44bdc521d67dc1ac57c948b4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a7f7b9f3d4992166ce4b52a1ea7d9c816}\label{class_graph_a7f7b9f3d4992166ce4b52a1ea7d9c816}} 
+\index{Graph@{Graph}!Get\+Vertex@{Get\+Vertex}}
+\index{Get\+Vertex@{Get\+Vertex}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{Get\+Vertex()}{GetVertex()}}
+{\footnotesize\ttfamily int Graph\+::\+Get\+Vertex (\begin{DoxyParamCaption}\item[{Q\+String}]{node\+Name }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_a7f7b9f3d4992166ce4b52a1ea7d9c816}{Graph\+::\+Get\+Vertex}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vertex
+\end{DoxyReturn}
+Finds and returns the vertex associated with a node\+Name Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_a7f7b9f3d4992166ce4b52a1ea7d9c816_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a981460a9962c0cccada8459347a5fd5d}\label{class_graph_a981460a9962c0cccada8459347a5fd5d}} 
+\index{Graph@{Graph}!is\+Node@{is\+Node}}
+\index{is\+Node@{is\+Node}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{is\+Node()}{isNode()}}
+{\footnotesize\ttfamily bool Graph\+::is\+Node (\begin{DoxyParamCaption}\item[{Q\+String}]{node }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_a981460a9962c0cccada8459347a5fd5d}{Graph\+::is\+Node}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{class_graph_a981460a9962c0cccada8459347a5fd5d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a3bb92a2d9cba33ba8e960eccb9c34f78}\label{class_graph_a3bb92a2d9cba33ba8e960eccb9c34f78}} 
+\index{Graph@{Graph}!Perform\+Complete\+Dijkstra@{Perform\+Complete\+Dijkstra}}
+\index{Perform\+Complete\+Dijkstra@{Perform\+Complete\+Dijkstra}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{Perform\+Complete\+Dijkstra()}{PerformCompleteDijkstra()}}
+{\footnotesize\ttfamily int Graph\+::\+Perform\+Complete\+Dijkstra (\begin{DoxyParamCaption}\item[{int}]{source\+Vertex,  }\item[{int}]{base\+Case,  }\item[{Q\+Vector$<$ Q\+String $>$ \&}]{stadiums }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_a3bb92a2d9cba33ba8e960eccb9c34f78}{Graph\+::\+Perform\+Complete\+Dijkstra}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source\+Vertex} & \\
+\hline
+{\em base\+Case} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Disjkstra\textquotesingle{}s algorithm on a segment of verticies 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_a3bb92a2d9cba33ba8e960eccb9c34f78_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_a3b0a495ac7703b4b7f12dc8e6e490f3b}\label{class_graph_a3b0a495ac7703b4b7f12dc8e6e490f3b}} 
+\index{Graph@{Graph}!Perform\+From\+To\+Dijkstra@{Perform\+From\+To\+Dijkstra}}
+\index{Perform\+From\+To\+Dijkstra@{Perform\+From\+To\+Dijkstra}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{Perform\+From\+To\+Dijkstra()}{PerformFromToDijkstra()}}
+{\footnotesize\ttfamily int Graph\+::\+Perform\+From\+To\+Dijkstra (\begin{DoxyParamCaption}\item[{int}]{from\+Vertex,  }\item[{int}]{to\+Vertex }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_a3b0a495ac7703b4b7f12dc8e6e490f3b}{Graph\+::\+Perform\+From\+To\+Dijkstra}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from\+Vertex} & \\
+\hline
+{\em to\+Vertex} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Dijkstra\textquotesingle{}s algorithm from a vertex to a vertex 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_graph_a3b0a495ac7703b4b7f12dc8e6e490f3b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_graph_ab4b197d26dfb1a53e14f3e5197053653}\label{class_graph_ab4b197d26dfb1a53e14f3e5197053653}} 
+\index{Graph@{Graph}!Prim\+M\+ST@{Prim\+M\+ST}}
+\index{Prim\+M\+ST@{Prim\+M\+ST}!Graph@{Graph}}
+\subsubsection{\texorpdfstring{Prim\+M\+S\+T()}{PrimMST()}}
+{\footnotesize\ttfamily int Graph\+::\+Prim\+M\+ST (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_graph_ab4b197d26dfb1a53e14f3e5197053653}{Graph\+::\+Prim\+M\+ST}}. 
+
+\begin{DoxyReturn}{Returns}
+distance Returns the distance of the Prim\+M\+ST 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/cptka/\+Dropbox/cs1d/\+C\+S1\+D-\/\+Project2/sourcecode/graph.\+h\item 
+C\+:/\+Users/cptka/\+Dropbox/cs1d/\+C\+S1\+D-\/\+Project2/sourcecode/graph.\+cpp\end{DoxyCompactItemize}

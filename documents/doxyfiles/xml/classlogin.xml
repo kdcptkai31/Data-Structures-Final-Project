@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classlogin" kind="class" language="C++" prot="public">
+    <compoundname>login</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="login_8h" local="no">login.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlogin_1ab08986017bf8d41e5cbab46dd0492d38" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ui_1_1login" kindref="compound">Ui::login</ref> *</type>
+        <definition>Ui::login* login::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="69" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlogin_1a0c9652f5bece5ef4b622105b43ed6491" prot="private" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="structuser" kindref="compound">user</ref> &gt;</type>
+        <definition>QVector&lt;user&gt; login::accounts</definition>
+        <argsstring></argsstring>
+        <name>accounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>QVector of struct &apos;user&apos; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="70" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlogin_1ab335e621c9b624c03b0539cebd305ca6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_main_window" kindref="compound">MainWindow</ref></type>
+        <definition>MainWindow login::interface</definition>
+        <argsstring></argsstring>
+        <name>interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Traveler interface </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="73" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlogin_1aff207eac2fdb945e05e7558433201689" prot="private" static="no" mutable="no">
+        <type><ref refid="class_admin_window" kindref="compound">AdminWindow</ref></type>
+        <definition>AdminWindow login::adminWindow</definition>
+        <argsstring></argsstring>
+        <name>adminWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Admin interface </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="74" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlogin_1a31aa7d7c5cebafc8aaaa139347701a3b" prot="private" static="no" mutable="no">
+        <type><ref refid="classadmin_login" kindref="compound">adminLogin</ref></type>
+        <definition>adminLogin login::tiddies</definition>
+        <argsstring></argsstring>
+        <name>tiddies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="75" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlogin_1a4bea95f394a7f5709d79b13455881602" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>login::login</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>login</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="classlogin_1a4bea95f394a7f5709d79b13455881602" kindref="member">login::login</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The standard login window ui </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="45" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.cpp" bodystart="9" bodyend="17"/>
+        <references refid="classlogin_1ae57494ecbbb2ad9f0fdec03ce65af336" compoundref="login_8cpp" startline="96" endline="107">addAccount</references>
+      </memberdef>
+      <memberdef kind="function" id="classlogin_1a4086fe44ad1e40447a0bebbc9b8b3c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>login::~login</definition>
+        <argsstring>()</argsstring>
+        <name>~login</name>
+        <briefdescription>
+<para><ref refid="classlogin_1a4086fe44ad1e40447a0bebbc9b8b3c14" kindref="member">login::~login</ref> Destructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="46" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classlogin_1adcc8c00bf61ba4cc79454cea09cb97e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool login::isAccount</definition>
+        <argsstring>(QString nameIn, QString passIn)</argsstring>
+        <name>isAccount</name>
+        <param>
+          <type>QString</type>
+          <declname>nameIn</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>passIn</declname>
+        </param>
+        <briefdescription>
+<para>isAccount checks if the user is a traveler. */ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="49" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.cpp" bodystart="35" bodyend="54"/>
+        <referencedby refid="classlogin_1ab004af3250f9dc29d1e9a9448c3bba27" compoundref="login_8cpp" startline="63" endline="87">isAdmin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classlogin_1ab004af3250f9dc29d1e9a9448c3bba27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool login::isAdmin</definition>
+        <argsstring>(QString nameIn, QString passIn)</argsstring>
+        <name>isAdmin</name>
+        <param>
+          <type>QString</type>
+          <declname>nameIn</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>passIn</declname>
+        </param>
+        <briefdescription>
+<para>isAdmin checks to see if the user is an admin. */ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="51" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.cpp" bodystart="63" bodyend="87"/>
+        <references refid="classlogin_1adcc8c00bf61ba4cc79454cea09cb97e1" compoundref="login_8cpp" startline="35" endline="54">isAccount</references>
+      </memberdef>
+      <memberdef kind="function" id="classlogin_1ae57494ecbbb2ad9f0fdec03ce65af336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void login::addAccount</definition>
+        <argsstring>(QString nameIn, QString passIn, bool adminIn)</argsstring>
+        <name>addAccount</name>
+        <param>
+          <type>QString</type>
+          <declname>nameIn</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>passIn</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>adminIn</declname>
+        </param>
+        <briefdescription>
+<para>addAccount allows the user to add a new account. */ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="54" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.cpp" bodystart="96" bodyend="107"/>
+        <referencedby refid="classlogin_1a4bea95f394a7f5709d79b13455881602" compoundref="login_8cpp" startline="9" endline="17">login</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classlogin_1ac3c10c4dd17ea35b4485a2c1973f35ab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void login::on_LoginButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_LoginButton_clicked</name>
+        <briefdescription>
+<para>&quot;Login&quot; push button */ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="59" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.cpp" bodystart="113" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="slot" id="classlogin_1a40e7c6037d27235ea3f9ea04ab3f48b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void login::on_pushButton_viewData_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_viewData_clicked</name>
+        <briefdescription>
+<para>login::on_CreateCheckBox_toggled makes new account </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>checked</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="66" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.cpp" bodystart="169" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The login class handles login information, the program checks the credentials and determines if the account is an admin or traveler. The class also allows the user to add an account. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="46">
+        <label>login</label>
+        <link refid="classlogin"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>QDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="48">
+        <label>login</label>
+        <link refid="classlogin"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>QDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" line="41" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h" bodystart="40" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classlogin_1a0c9652f5bece5ef4b622105b43ed6491" prot="private" virt="non-virtual"><scope>login</scope><name>accounts</name></member>
+      <member refid="classlogin_1ae57494ecbbb2ad9f0fdec03ce65af336" prot="public" virt="non-virtual"><scope>login</scope><name>addAccount</name></member>
+      <member refid="classlogin_1aff207eac2fdb945e05e7558433201689" prot="private" virt="non-virtual"><scope>login</scope><name>adminWindow</name></member>
+      <member refid="classlogin_1ab335e621c9b624c03b0539cebd305ca6" prot="private" virt="non-virtual"><scope>login</scope><name>interface</name></member>
+      <member refid="classlogin_1adcc8c00bf61ba4cc79454cea09cb97e1" prot="public" virt="non-virtual"><scope>login</scope><name>isAccount</name></member>
+      <member refid="classlogin_1ab004af3250f9dc29d1e9a9448c3bba27" prot="public" virt="non-virtual"><scope>login</scope><name>isAdmin</name></member>
+      <member refid="classlogin_1a4bea95f394a7f5709d79b13455881602" prot="public" virt="non-virtual"><scope>login</scope><name>login</name></member>
+      <member refid="classlogin_1ac3c10c4dd17ea35b4485a2c1973f35ab" prot="private" virt="non-virtual"><scope>login</scope><name>on_LoginButton_clicked</name></member>
+      <member refid="classlogin_1a40e7c6037d27235ea3f9ea04ab3f48b1" prot="private" virt="non-virtual"><scope>login</scope><name>on_pushButton_viewData_clicked</name></member>
+      <member refid="classlogin_1a31aa7d7c5cebafc8aaaa139347701a3b" prot="private" virt="non-virtual"><scope>login</scope><name>tiddies</name></member>
+      <member refid="classlogin_1ab08986017bf8d41e5cbab46dd0492d38" prot="private" virt="non-virtual"><scope>login</scope><name>ui</name></member>
+      <member refid="classlogin_1a4086fe44ad1e40447a0bebbc9b8b3c14" prot="public" virt="non-virtual"><scope>login</scope><name>~login</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,822 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui___admin_window" kind="class" language="C++" prot="public">
+    <compoundname>Ui_AdminWindow</compoundname>
+    <derivedcompoundref refid="class_ui_1_1_admin_window" prot="public" virt="non-virtual">Ui::AdminWindow</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ui___admin_window_1a49913416c98a5d4b161ce6b40b6282ef" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::titleLabel</definition>
+        <argsstring></argsstring>
+        <name>titleLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="31" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a3e6896d49e2fb3fa91faff854b84f284" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::sucSailorButton</definition>
+        <argsstring></argsstring>
+        <name>sucSailorButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="32" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a9e7144734e9e974d1f42163f0551cf09" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::priceChangeButton</definition>
+        <argsstring></argsstring>
+        <name>priceChangeButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="33" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a25b0c826c607699b538a3c41bfac7b6a" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::sucSailorLabel</definition>
+        <argsstring></argsstring>
+        <name>sucSailorLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="34" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a6d25866a104acf5a95ae8818d552324d" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::addNewSouvButton</definition>
+        <argsstring></argsstring>
+        <name>addNewSouvButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="35" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1aa9c3a0292868d0b79bb56ddb9212b2b5" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::delSouvButton</definition>
+        <argsstring></argsstring>
+        <name>delSouvButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="36" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a079b39fdbd2f20cd9dc3fafaa922413e" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::modifyInfoButton</definition>
+        <argsstring></argsstring>
+        <name>modifyInfoButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="37" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a724d1cc3033a7968b2b7a1fcc124aded" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::dbLabel</definition>
+        <argsstring></argsstring>
+        <name>dbLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="38" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a696f753c8c8a4475f28ddf20f9905c24" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::done</definition>
+        <argsstring></argsstring>
+        <name>done</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="39" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a20f92d8aea8b016eae82014775af382d" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::modEditLabel</definition>
+        <argsstring></argsstring>
+        <name>modEditLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="40" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a8f51b1eb027707e9e42bb140bdd8ae6d" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::backLogin</definition>
+        <argsstring></argsstring>
+        <name>backLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="41" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a07959ee48e37a96418db0b5fda530737" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_AdminWindow::widget</definition>
+        <argsstring></argsstring>
+        <name>widget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="42" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1ac6ae604a0e1e53ffa0df7ba9e0cf7563" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_AdminWindow::verticalLayout_3</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="43" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a7777f42d3712aaf2ceca156d192ac723" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_AdminWindow::verticalLayout_2</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="44" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a817394de561be2b831c28fc7910a1439" prot="public" static="no" mutable="no">
+        <type>QFormLayout *</type>
+        <definition>QFormLayout* Ui_AdminWindow::formLayout_5</definition>
+        <argsstring></argsstring>
+        <name>formLayout_5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="45" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a7dd49ebe3461dbf5fd16693a8af50a4c" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::newSouvLabel</definition>
+        <argsstring></argsstring>
+        <name>newSouvLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="46" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a4b27c041c400a27ab8645b051121c85b" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_AdminWindow::newSouvCombo</definition>
+        <argsstring></argsstring>
+        <name>newSouvCombo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="47" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a54dd6d9a5801f4b293460dc128ee6295" prot="public" static="no" mutable="no">
+        <type>QFormLayout *</type>
+        <definition>QFormLayout* Ui_AdminWindow::formLayout_4</definition>
+        <argsstring></argsstring>
+        <name>formLayout_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="48" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1ae775e3610cb9e65d458f0248131cdfa0" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::souvLabel</definition>
+        <argsstring></argsstring>
+        <name>souvLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="49" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a7d2a036c5944cf71a16c704e24d737c9" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_AdminWindow::newSouvEdit</definition>
+        <argsstring></argsstring>
+        <name>newSouvEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="50" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a5fd34b63e12ef340081ce2469dfa8de1" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::souvPriceLabel</definition>
+        <argsstring></argsstring>
+        <name>souvPriceLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="51" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1aea3d03a412857e0f0b943ace34ea16f3" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_AdminWindow::newSouvPriceEdit</definition>
+        <argsstring></argsstring>
+        <name>newSouvPriceEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="52" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a64d3350ade864682f7bc3d6d5ad86723" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::addNewSouv</definition>
+        <argsstring></argsstring>
+        <name>addNewSouv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="53" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1ac1b6bf6a9165171d310bae826ccbed5f" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_AdminWindow::widget1</definition>
+        <argsstring></argsstring>
+        <name>widget1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="54" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a1f904d791dbf9d77bc272e2e55f20156" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_AdminWindow::verticalLayout_4</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="55" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a62b0bc3a1cab2d2d2423faeeddd5f84d" prot="public" static="no" mutable="no">
+        <type>QFormLayout *</type>
+        <definition>QFormLayout* Ui_AdminWindow::formLayout_6</definition>
+        <argsstring></argsstring>
+        <name>formLayout_6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="56" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a8b38c0854f3067ff6021388bae401a17" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::delTeamLabel</definition>
+        <argsstring></argsstring>
+        <name>delTeamLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="57" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a4016ab91bf430023aa614dc46d545444" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_AdminWindow::delTeamCombo</definition>
+        <argsstring></argsstring>
+        <name>delTeamCombo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="58" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1af8196525c7f89af37cdbf6f2f7efda10" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::delSouvLabel</definition>
+        <argsstring></argsstring>
+        <name>delSouvLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="59" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a7bc82ad288367f8b98cf1e619040a1c5" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_AdminWindow::delSouvCombo</definition>
+        <argsstring></argsstring>
+        <name>delSouvCombo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="60" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a72abba4320496249c74bf9fb7483d807" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::delSouv</definition>
+        <argsstring></argsstring>
+        <name>delSouv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="61" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a1f070cd00434194db8d7ce191821278e" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_AdminWindow::widget2</definition>
+        <argsstring></argsstring>
+        <name>widget2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="62" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a33486ff8f11715d9bbdb9dd5fa77eb36" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_AdminWindow::verticalLayout</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="63" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a7fec90065eef84fbcd0088b2d8a717ad" prot="public" static="no" mutable="no">
+        <type>QFormLayout *</type>
+        <definition>QFormLayout* Ui_AdminWindow::formLayout</definition>
+        <argsstring></argsstring>
+        <name>formLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="64" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1afe3d09dee72fb16a38351e5a4c956094" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::cbLabel</definition>
+        <argsstring></argsstring>
+        <name>cbLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="65" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a60eab5cd5e958e61be5f6c6f0e64f530" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_AdminWindow::comboTeams</definition>
+        <argsstring></argsstring>
+        <name>comboTeams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="66" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a4b309b87902d65bc8f4705e6947ac9ac" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::priceSouvLabel</definition>
+        <argsstring></argsstring>
+        <name>priceSouvLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="67" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1aff718173f7bbc9e789e6cbfdce1d3807" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_AdminWindow::comboPriceSouv</definition>
+        <argsstring></argsstring>
+        <name>comboPriceSouv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="68" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a4f75752d680cddc8c45b46d953c932d7" prot="public" static="no" mutable="no">
+        <type>QFormLayout *</type>
+        <definition>QFormLayout* Ui_AdminWindow::formLayout_2</definition>
+        <argsstring></argsstring>
+        <name>formLayout_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="69" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1adc238f4553a663ab267d84131874a433" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::priceLabel</definition>
+        <argsstring></argsstring>
+        <name>priceLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="70" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1aafa9e1698dd1909fe785a42564df15ce" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_AdminWindow::priceEdit</definition>
+        <argsstring></argsstring>
+        <name>priceEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="71" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1aed8b595646e2a8349b0cddf7669fca39" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::priceGoButton</definition>
+        <argsstring></argsstring>
+        <name>priceGoButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="72" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1ad9425f7ea37f8b7a7eaefd0d8430038f" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_AdminWindow::widget3</definition>
+        <argsstring></argsstring>
+        <name>widget3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="73" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1acf63d0b9edd449bed7a6fd6505d3f020" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_AdminWindow::verticalLayout_5</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="74" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a77b319e8cf6e07d599ad4ad74b9022e6" prot="public" static="no" mutable="no">
+        <type>QFormLayout *</type>
+        <definition>QFormLayout* Ui_AdminWindow::formLayout_3</definition>
+        <argsstring></argsstring>
+        <name>formLayout_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="75" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a071c831909b0661251351f79ccc7b40f" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::modStadLabel</definition>
+        <argsstring></argsstring>
+        <name>modStadLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="76" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1acf510a2a329fab78425cdbd2bcc2806b" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_AdminWindow::modStadCombo</definition>
+        <argsstring></argsstring>
+        <name>modStadCombo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="77" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1ad60ce495422a7c04f7889aae0237b0c2" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_AdminWindow::modColLabel</definition>
+        <argsstring></argsstring>
+        <name>modColLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="78" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a621e2873cffcf192f2bb9da8357f1909" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_AdminWindow::modColCombo</definition>
+        <argsstring></argsstring>
+        <name>modColCombo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="79" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1aa4c7fe02cc96e626af62f831fea9ebca" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::modGoButton</definition>
+        <argsstring></argsstring>
+        <name>modGoButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="80" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1af741683e6e00449e3e7eb8b2d5033ba5" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* Ui_AdminWindow::widget4</definition>
+        <argsstring></argsstring>
+        <name>widget4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="81" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1ac230e26c2c4aa54e835a1ad02c942259" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Ui_AdminWindow::verticalLayout_6</definition>
+        <argsstring></argsstring>
+        <name>verticalLayout_6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="82" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a4ffc64d238cf2e26f0a330a443547e3d" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_AdminWindow::modEdit</definition>
+        <argsstring></argsstring>
+        <name>modEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="83" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___admin_window_1a81ee6cea348dc4421ecc11a6fa8f9329" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_AdminWindow::modModButton</definition>
+        <argsstring></argsstring>
+        <name>modModButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="84" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ui___admin_window_1a66b389d6b188fbaca3e2e8af08e373e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_AdminWindow::setupUi</definition>
+        <argsstring>(QDialog *AdminWindow)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>AdminWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="86" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="86" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui___admin_window_1a2c1707ce7053e1f0924398e5638b6dda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_AdminWindow::retranslateUi</definition>
+        <argsstring>(QDialog *AdminWindow)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>AdminWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="466" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="466" bodyend="495"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="90">
+        <label>Ui::AdminWindow</label>
+        <link refid="class_ui_1_1_admin_window"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>Ui_AdminWindow</label>
+        <link refid="class_ui___admin_window"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="29" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="28" bodyend="497"/>
+    <listofallmembers>
+      <member refid="class_ui___admin_window_1a64d3350ade864682f7bc3d6d5ad86723" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>addNewSouv</name></member>
+      <member refid="class_ui___admin_window_1a6d25866a104acf5a95ae8818d552324d" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>addNewSouvButton</name></member>
+      <member refid="class_ui___admin_window_1a8f51b1eb027707e9e42bb140bdd8ae6d" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>backLogin</name></member>
+      <member refid="class_ui___admin_window_1afe3d09dee72fb16a38351e5a4c956094" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>cbLabel</name></member>
+      <member refid="class_ui___admin_window_1aff718173f7bbc9e789e6cbfdce1d3807" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>comboPriceSouv</name></member>
+      <member refid="class_ui___admin_window_1a60eab5cd5e958e61be5f6c6f0e64f530" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>comboTeams</name></member>
+      <member refid="class_ui___admin_window_1a724d1cc3033a7968b2b7a1fcc124aded" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>dbLabel</name></member>
+      <member refid="class_ui___admin_window_1a72abba4320496249c74bf9fb7483d807" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>delSouv</name></member>
+      <member refid="class_ui___admin_window_1aa9c3a0292868d0b79bb56ddb9212b2b5" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>delSouvButton</name></member>
+      <member refid="class_ui___admin_window_1a7bc82ad288367f8b98cf1e619040a1c5" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>delSouvCombo</name></member>
+      <member refid="class_ui___admin_window_1af8196525c7f89af37cdbf6f2f7efda10" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>delSouvLabel</name></member>
+      <member refid="class_ui___admin_window_1a4016ab91bf430023aa614dc46d545444" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>delTeamCombo</name></member>
+      <member refid="class_ui___admin_window_1a8b38c0854f3067ff6021388bae401a17" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>delTeamLabel</name></member>
+      <member refid="class_ui___admin_window_1a696f753c8c8a4475f28ddf20f9905c24" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>done</name></member>
+      <member refid="class_ui___admin_window_1a7fec90065eef84fbcd0088b2d8a717ad" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>formLayout</name></member>
+      <member refid="class_ui___admin_window_1a4f75752d680cddc8c45b46d953c932d7" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>formLayout_2</name></member>
+      <member refid="class_ui___admin_window_1a77b319e8cf6e07d599ad4ad74b9022e6" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>formLayout_3</name></member>
+      <member refid="class_ui___admin_window_1a54dd6d9a5801f4b293460dc128ee6295" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>formLayout_4</name></member>
+      <member refid="class_ui___admin_window_1a817394de561be2b831c28fc7910a1439" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>formLayout_5</name></member>
+      <member refid="class_ui___admin_window_1a62b0bc3a1cab2d2d2423faeeddd5f84d" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>formLayout_6</name></member>
+      <member refid="class_ui___admin_window_1a621e2873cffcf192f2bb9da8357f1909" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>modColCombo</name></member>
+      <member refid="class_ui___admin_window_1ad60ce495422a7c04f7889aae0237b0c2" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>modColLabel</name></member>
+      <member refid="class_ui___admin_window_1a4ffc64d238cf2e26f0a330a443547e3d" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>modEdit</name></member>
+      <member refid="class_ui___admin_window_1a20f92d8aea8b016eae82014775af382d" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>modEditLabel</name></member>
+      <member refid="class_ui___admin_window_1aa4c7fe02cc96e626af62f831fea9ebca" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>modGoButton</name></member>
+      <member refid="class_ui___admin_window_1a079b39fdbd2f20cd9dc3fafaa922413e" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>modifyInfoButton</name></member>
+      <member refid="class_ui___admin_window_1a81ee6cea348dc4421ecc11a6fa8f9329" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>modModButton</name></member>
+      <member refid="class_ui___admin_window_1acf510a2a329fab78425cdbd2bcc2806b" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>modStadCombo</name></member>
+      <member refid="class_ui___admin_window_1a071c831909b0661251351f79ccc7b40f" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>modStadLabel</name></member>
+      <member refid="class_ui___admin_window_1a4b27c041c400a27ab8645b051121c85b" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>newSouvCombo</name></member>
+      <member refid="class_ui___admin_window_1a7d2a036c5944cf71a16c704e24d737c9" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>newSouvEdit</name></member>
+      <member refid="class_ui___admin_window_1a7dd49ebe3461dbf5fd16693a8af50a4c" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>newSouvLabel</name></member>
+      <member refid="class_ui___admin_window_1aea3d03a412857e0f0b943ace34ea16f3" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>newSouvPriceEdit</name></member>
+      <member refid="class_ui___admin_window_1a9e7144734e9e974d1f42163f0551cf09" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>priceChangeButton</name></member>
+      <member refid="class_ui___admin_window_1aafa9e1698dd1909fe785a42564df15ce" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>priceEdit</name></member>
+      <member refid="class_ui___admin_window_1aed8b595646e2a8349b0cddf7669fca39" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>priceGoButton</name></member>
+      <member refid="class_ui___admin_window_1adc238f4553a663ab267d84131874a433" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>priceLabel</name></member>
+      <member refid="class_ui___admin_window_1a4b309b87902d65bc8f4705e6947ac9ac" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>priceSouvLabel</name></member>
+      <member refid="class_ui___admin_window_1a2c1707ce7053e1f0924398e5638b6dda" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>retranslateUi</name></member>
+      <member refid="class_ui___admin_window_1a66b389d6b188fbaca3e2e8af08e373e0" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>setupUi</name></member>
+      <member refid="class_ui___admin_window_1ae775e3610cb9e65d458f0248131cdfa0" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>souvLabel</name></member>
+      <member refid="class_ui___admin_window_1a5fd34b63e12ef340081ce2469dfa8de1" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>souvPriceLabel</name></member>
+      <member refid="class_ui___admin_window_1a3e6896d49e2fb3fa91faff854b84f284" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>sucSailorButton</name></member>
+      <member refid="class_ui___admin_window_1a25b0c826c607699b538a3c41bfac7b6a" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>sucSailorLabel</name></member>
+      <member refid="class_ui___admin_window_1a49913416c98a5d4b161ce6b40b6282ef" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>titleLabel</name></member>
+      <member refid="class_ui___admin_window_1a33486ff8f11715d9bbdb9dd5fa77eb36" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>verticalLayout</name></member>
+      <member refid="class_ui___admin_window_1a7777f42d3712aaf2ceca156d192ac723" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>verticalLayout_2</name></member>
+      <member refid="class_ui___admin_window_1ac6ae604a0e1e53ffa0df7ba9e0cf7563" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>verticalLayout_3</name></member>
+      <member refid="class_ui___admin_window_1a1f904d791dbf9d77bc272e2e55f20156" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>verticalLayout_4</name></member>
+      <member refid="class_ui___admin_window_1acf63d0b9edd449bed7a6fd6505d3f020" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>verticalLayout_5</name></member>
+      <member refid="class_ui___admin_window_1ac230e26c2c4aa54e835a1ad02c942259" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>verticalLayout_6</name></member>
+      <member refid="class_ui___admin_window_1a07959ee48e37a96418db0b5fda530737" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>widget</name></member>
+      <member refid="class_ui___admin_window_1ac1b6bf6a9165171d310bae826ccbed5f" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>widget1</name></member>
+      <member refid="class_ui___admin_window_1a1f070cd00434194db8d7ce191821278e" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>widget2</name></member>
+      <member refid="class_ui___admin_window_1ad9425f7ea37f8b7a7eaefd0d8430038f" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>widget3</name></member>
+      <member refid="class_ui___admin_window_1af741683e6e00449e3e7eb8b2d5033ba5" prot="public" virt="non-virtual"><scope>Ui_AdminWindow</scope><name>widget4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui_1_1_form" kind="class" language="C++" prot="public">
+    <compoundname>Ui::Form</compoundname>
+    <basecompoundref refid="class_ui___form" prot="public" virt="non-virtual">Ui_Form</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>Ui::Form</label>
+        <link refid="class_ui_1_1_form"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Ui_Form</label>
+        <link refid="class_ui___form"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>Ui::Form</label>
+        <link refid="class_ui_1_1_form"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Ui_Form</label>
+        <link refid="class_ui___form"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_form.h" line="44" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_form.h" bodystart="44" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_ui___form_1ad05dfdbcadce5efd8a7e8da759e41aa4" prot="public" virt="non-virtual"><scope>Ui::Form</scope><name>retranslateUi</name></member>
+      <member refid="class_ui___form_1a90f69afe5c674331bdf041a051aee259" prot="public" virt="non-virtual"><scope>Ui::Form</scope><name>setupUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

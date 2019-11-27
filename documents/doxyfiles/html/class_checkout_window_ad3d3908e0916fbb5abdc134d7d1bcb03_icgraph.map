@@ -1,0 +1,4 @@
+<map id="CheckoutWindow::checkNum" name="CheckoutWindow::checkNum">
+<area shape="rect" id="node2" href="$class_checkout_window.html#a28612fc41a4491136ae4327363cbeb74" title="CheckoutWindow::invalidCard\lNumber" alt="" coords="247,5,440,47"/>
+<area shape="rect" id="node3" href="$class_checkout_window.html#a5fab2958fac97a8a986065cb4ccf8d03" title="CheckoutWindow::invalidCVV" alt="" coords="247,71,440,98"/>
+</map>

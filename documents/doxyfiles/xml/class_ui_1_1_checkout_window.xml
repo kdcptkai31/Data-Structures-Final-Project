@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui_1_1_checkout_window" kind="class" language="C++" prot="public">
+    <compoundname>Ui::CheckoutWindow</compoundname>
+    <basecompoundref refid="class_ui___checkout_window" prot="public" virt="non-virtual">Ui_CheckoutWindow</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>Ui_CheckoutWindow</label>
+        <link refid="class_ui___checkout_window"/>
+      </node>
+      <node id="22">
+        <label>Ui::CheckoutWindow</label>
+        <link refid="class_ui_1_1_checkout_window"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>Ui_CheckoutWindow</label>
+        <link refid="class_ui___checkout_window"/>
+      </node>
+      <node id="24">
+        <label>Ui::CheckoutWindow</label>
+        <link refid="class_ui_1_1_checkout_window"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="128" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="128" bodyend="128"/>
+    <listofallmembers>
+      <member refid="class_ui___checkout_window_1a700a00c5fb01e2e765fdfb69e4f37db0" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>cardNum</name></member>
+      <member refid="class_ui___checkout_window_1aedba99e9692bfc6cfc12471268610996" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>CVV</name></member>
+      <member refid="class_ui___checkout_window_1a16e806d0d1dfbe91d9c587e74ae779b2" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>infoLabel</name></member>
+      <member refid="class_ui___checkout_window_1a04080e7005b381f952831c2cb19607ff" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>label_2</name></member>
+      <member refid="class_ui___checkout_window_1a48cd1d8c2c3b0421ade0cf14fc2ab0d9" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>label_3</name></member>
+      <member refid="class_ui___checkout_window_1abbbfa64f1df7637a048346f3f378f576" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>month</name></member>
+      <member refid="class_ui___checkout_window_1a584353a58c94165df30991df4b568ee1" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>pushButton</name></member>
+      <member refid="class_ui___checkout_window_1a2f25585d6f8527481b9d813edf14b672" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>pushButton_2</name></member>
+      <member refid="class_ui___checkout_window_1aa4d7330945649474f7dd04f05e3a884d" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>retranslateUi</name></member>
+      <member refid="class_ui___checkout_window_1afa2930c4b8bed1675a960033ad7dfb75" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>setupUi</name></member>
+      <member refid="class_ui___checkout_window_1aeafbaa39ed38da88a2d670d0ffcac02f" prot="public" virt="non-virtual"><scope>Ui::CheckoutWindow</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

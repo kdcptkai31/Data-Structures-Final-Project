@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui_1_1_main_window" kind="class" language="C++" prot="public">
+    <compoundname>Ui::MainWindow</compoundname>
+    <basecompoundref refid="class_ui___main_window" prot="public" virt="non-virtual">Ui_MainWindow</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>Ui::MainWindow</label>
+        <link refid="class_ui_1_1_main_window"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Ui_MainWindow</label>
+        <link refid="class_ui___main_window"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="52">
+        <label>Ui::MainWindow</label>
+        <link refid="class_ui_1_1_main_window"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>Ui_MainWindow</label>
+        <link refid="class_ui___main_window"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_mainwindow.h" line="838" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_mainwindow.h" bodystart="838" bodyend="838"/>
+    <listofallmembers>
+      <member refid="class_ui___main_window_1a4b0c9e845756c49ad33c005c04cef6fa" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>angelStadium</name></member>
+      <member refid="class_ui___main_window_1a44a48c72763a1144fcfd23a5f4d65d57" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>attPark</name></member>
+      <member refid="class_ui___main_window_1a500730d325159f31563a0ff192f9b0b3" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>bfsButton</name></member>
+      <member refid="class_ui___main_window_1a4e2cc128245809c0939ad1034d0a2822" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>bfsLabel</name></member>
+      <member refid="class_ui___main_window_1a123ffe61d568bc4e708e9bc0522b5a9a" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>buschStadium</name></member>
+      <member refid="class_ui___main_window_1a30075506c2116c3ed4ff25e07ae75f81" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>centralWidget</name></member>
+      <member refid="class_ui___main_window_1af2e7d0a9df3725f19717f40705f52a3f" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>chaseField</name></member>
+      <member refid="class_ui___main_window_1a1eb765515d5d065b3b86b77e5f1c8c82" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>citiField</name></member>
+      <member refid="class_ui___main_window_1a8df4381922731b1268651342dca22b67" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>citizensBankPark</name></member>
+      <member refid="class_ui___main_window_1a7a67128932d06b358b53d2ac3c483c32" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>comericaPark</name></member>
+      <member refid="class_ui___main_window_1ad093e300d6fdc4fa6721af1b91a83f51" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>completeTripButton</name></member>
+      <member refid="class_ui___main_window_1af0b3c8b3f79be2d6445141a79401fbf7" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>completeTripComboBox</name></member>
+      <member refid="class_ui___main_window_1a1e4c229e6adbe35e025f93b514b97cee" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>completeTripDistance</name></member>
+      <member refid="class_ui___main_window_1abb40a84b11421663c136cffc466ff592" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>completeTripTableView</name></member>
+      <member refid="class_ui___main_window_1ac957dce36270d5a307378d89a2a4a0f8" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>conferences</name></member>
+      <member refid="class_ui___main_window_1a46b2cc77c8be71cd0e00cdeabe7b1466" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>coorsField</name></member>
+      <member refid="class_ui___main_window_1a07072f802ca149c027ef52af5b0ea193" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>customTripDistance</name></member>
+      <member refid="class_ui___main_window_1a0447e20369c6e3b71d02ce9d6df43b03" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>customTripLabel</name></member>
+      <member refid="class_ui___main_window_1ab13577a9741c5b6198990d97d05d6fd8" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>customTripsTab</name></member>
+      <member refid="class_ui___main_window_1a07c31cf8096c34d42d3d877e0e4ff0ff" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>customTripStartButton</name></member>
+      <member refid="class_ui___main_window_1a8b0fb0216625ee9aff9af81e14e43769" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>customTripTableView</name></member>
+      <member refid="class_ui___main_window_1aff7c5d284b3ccfd5a63670024f8dbf0c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dfsButton</name></member>
+      <member refid="class_ui___main_window_1ada90d26bb9319fb66aa0b19ef0bdb238" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dfsLabel</name></member>
+      <member refid="class_ui___main_window_1aa55906b0d1013ad8c23e3c66a3435dde" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dijkstraButton</name></member>
+      <member refid="class_ui___main_window_1a9f7a84a5cb2bc0a76527a6285deee29c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dijkstraLabel</name></member>
+      <member refid="class_ui___main_window_1a314d9809c2515c6425f8fc74c9e4c88d" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>displayOptions</name></member>
+      <member refid="class_ui___main_window_1a94db270224ffaa15b40c7fc61a5c177c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>dodgerStadium</name></member>
+      <member refid="class_ui___main_window_1a314f1771f3a93efa750eeaf20a534f03" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>editTeamSearch</name></member>
+      <member refid="class_ui___main_window_1a3afa54e7e53ffa1007c568d2b17d1289" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>fenwayPark</name></member>
+      <member refid="class_ui___main_window_1afedcce3d8f3dddf4c1fd5b768660b8ee" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>formLayout</name></member>
+      <member refid="class_ui___main_window_1a422d7ddef18e63e128d58c8d2c976d07" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>glodeLifePark</name></member>
+      <member refid="class_ui___main_window_1a5eb5f5c279c680f18a724dae2f62eb71" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>greatAmericaBallPark</name></member>
+      <member refid="class_ui___main_window_1a525ed3c5fe0784ac502ee222fba4e205" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>gridLayout</name></member>
+      <member refid="class_ui___main_window_1af8e244a293cac2871026b33a6bbac348" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>guranteedRateField</name></member>
+      <member refid="class_ui___main_window_1a6ef6b65029b6d25b749829dbfdd6fa4e" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>informationTab</name></member>
+      <member refid="class_ui___main_window_1a61f89d1379482666fdab84797626e658" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>kauffmanStadium</name></member>
+      <member refid="class_ui___main_window_1ad9c89133780f28e6efa2ec17ceb9cff5" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label</name></member>
+      <member refid="class_ui___main_window_1ac6d1f5407b5d0e7f36fd79ba76b3f689" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>label_dist</name></member>
+      <member refid="class_ui___main_window_1ab96ab0f0578098521fa69a75aa5cdde8" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>layoutWidget</name></member>
+      <member refid="class_ui___main_window_1aab31b3dec8d767525dea6f163e029e48" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>layoutWidget1</name></member>
+      <member refid="class_ui___main_window_1a73cbec084bea5d1160d118cb24fe4d4c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>listWidget_trips</name></member>
+      <member refid="class_ui___main_window_1a698607e52af7944e025ee82b271c33c3" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>mainTableView</name></member>
+      <member refid="class_ui___main_window_1a3dc43b37e86bafc8822fc33e781c223d" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>marlinsPark</name></member>
+      <member refid="class_ui___main_window_1ac00c6bb771aad4cae769f915aa6a6686" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>millerPark</name></member>
+      <member refid="class_ui___main_window_1aa1046d4efe58dc634c298b39a023db44" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>minuteMaidPark</name></member>
+      <member refid="class_ui___main_window_1a23f3039069193b857e88e6903d874159" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>mstButton</name></member>
+      <member refid="class_ui___main_window_1a4c2a97c4fbcc86c0a4f1e913cea986b4" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>mstLabel</name></member>
+      <member refid="class_ui___main_window_1a2115ce0505093c6da56c515880ebebef" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>nationalsPark</name></member>
+      <member refid="class_ui___main_window_1af16e55d1e18817210d18dd3b8c817939" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>oaklandAlamedaCountyColiseum</name></member>
+      <member refid="class_ui___main_window_1a7b5fcbc84ab66889784b9f1b54e7d51f" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>oriolePark</name></member>
+      <member refid="class_ui___main_window_1ade3f2d5af76e0a93c5dfce9496600ac9" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>petcoPark</name></member>
+      <member refid="class_ui___main_window_1a3b5b905e41c16c1a834dddfdeb15612d" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>pncPark</name></member>
+      <member refid="class_ui___main_window_1a41abee7931c1a1113c7d54714000a972" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>presetTripsTab</name></member>
+      <member refid="class_ui___main_window_1ad856c9e2db0295fc1e8b51b27d539329" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>progressiveField</name></member>
+      <member refid="class_ui___main_window_1ad332d93084584930878f1daf5f84cdbf" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>pushButton</name></member>
+      <member refid="class_ui___main_window_1a111f7e700db9586e4cd1448036c2513e" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>pushButton_back</name></member>
+      <member refid="class_ui___main_window_1af0975b2949f7f51632078aac6d10aee9" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbAC</name></member>
+      <member refid="class_ui___main_window_1a55d746a762401dca65d0c8dfb5f66c71" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbC</name></member>
+      <member refid="class_ui___main_window_1a19b947579f49ef66b0f200635439a6f3" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbDE</name></member>
+      <member refid="class_ui___main_window_1a7e35fe066e3db8bd04961f24369266b9" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbF</name></member>
+      <member refid="class_ui___main_window_1a4dbf18bc04b38496c90546d3b525c9d2" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbL</name></member>
+      <member refid="class_ui___main_window_1ae1b5967d7c20c6f44417c3ff84274edf" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbNC</name></member>
+      <member refid="class_ui___main_window_1af2daae5aec751345719698ff03cde795" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbO</name></member>
+      <member refid="class_ui___main_window_1a154b55b11332214e4a4a45d642c242b1" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbR</name></member>
+      <member refid="class_ui___main_window_1ab7da38c951c3c42530fbd66a3e9483fd" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbSC</name></member>
+      <member refid="class_ui___main_window_1ac0a97f4205e2ab6f3f957717028ced56" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbSN</name></member>
+      <member refid="class_ui___main_window_1a21560924f661d6c57ec84de91af83ac6" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbSP</name></member>
+      <member refid="class_ui___main_window_1a492ad7fd751d496d98524e6e2d9e025c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbSRT</name></member>
+      <member refid="class_ui___main_window_1a1e4994f3c4d18abb81824892b1ab1205" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbST</name></member>
+      <member refid="class_ui___main_window_1a1a098e0ad3bd8d39dfd51b9e414b60a3" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbTN</name></member>
+      <member refid="class_ui___main_window_1a463956aaaa42be1858c119855229fcba" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rbTP</name></member>
+      <member refid="class_ui___main_window_1a097dd160c3534a204904cb374412c618" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>retranslateUi</name></member>
+      <member refid="class_ui___main_window_1a97f67022b1d4db21ef16fd4ae9320ecf" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>rogersCentre</name></member>
+      <member refid="class_ui___main_window_1a605b68cd19b3e89d804dc620a820b877" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>safecoField</name></member>
+      <member refid="class_ui___main_window_1acf4a0872c4c77d8f43a2ec66ed849b58" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>setupUi</name></member>
+      <member refid="class_ui___main_window_1a170543ee7469b34dbe6d0eff330d786c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>stadiumType</name></member>
+      <member refid="class_ui___main_window_1a610e68a13493ec1713507143a47d2f11" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>sunTrustPark</name></member>
+      <member refid="class_ui___main_window_1a3260b943854b841c986f47c4726ee7f9" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>tabWidget</name></member>
+      <member refid="class_ui___main_window_1ad6c99fcd634cb966cb1fd95d559ebc9c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>targetField</name></member>
+      <member refid="class_ui___main_window_1a991f074c30778eaedf687a40150d854d" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>teamSearch</name></member>
+      <member refid="class_ui___main_window_1afbea70c5346da7e84d50310274a0fa23" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>teamSearchError</name></member>
+      <member refid="class_ui___main_window_1aa84a860784ccb9d7e58607fd18bf99c0" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>totalCapacityButton</name></member>
+      <member refid="class_ui___main_window_1af7dd1aae3a3e130a575ee8cf32c82131" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>totalCapacityLabel</name></member>
+      <member refid="class_ui___main_window_1a92a31d42f1f17526f0d7b205c8977b6f" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>tropicanaField</name></member>
+      <member refid="class_ui___main_window_1aecd96a04789fcfec3f98d80390ad8184" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayout</name></member>
+      <member refid="class_ui___main_window_1a0c01bad60d9f422a1258e710635a2f65" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayout_2</name></member>
+      <member refid="class_ui___main_window_1a38b8a4b887f3b58e2a49e7905ae6f1f0" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayout_3</name></member>
+      <member refid="class_ui___main_window_1a6f40fc110b15410c00837a446d57bdbe" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayout_4</name></member>
+      <member refid="class_ui___main_window_1afcc20a3d5058037a00cdc6122f231848" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayout_5</name></member>
+      <member refid="class_ui___main_window_1a93c190b085c63a667c535ba0bbcfec7c" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayout_6</name></member>
+      <member refid="class_ui___main_window_1a7b66d5d6ab55f3977317359d09a42345" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayout_7</name></member>
+      <member refid="class_ui___main_window_1a805d415fff07a22a85219e1f22f2da28" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>verticalLayoutWidget</name></member>
+      <member refid="class_ui___main_window_1afeede17d4d054220a31e7f477a96d3a1" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>wrigleyField</name></member>
+      <member refid="class_ui___main_window_1a1d8ef431926d15ba395a8c16b1cfc034" prot="public" virt="non-virtual"><scope>Ui::MainWindow</scope><name>yankeeSadium</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

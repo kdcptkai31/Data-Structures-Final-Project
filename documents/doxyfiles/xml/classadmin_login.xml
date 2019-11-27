@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classadmin_login" kind="class" language="C++" prot="public">
+    <compoundname>adminLogin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classadmin_login_1aab376581a139361f605ed079c55fdc5e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ui_1_1admin_login" kindref="compound">Ui::adminLogin</ref> *</type>
+        <definition>Ui::adminLogin* adminLogin::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" line="24" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classadmin_login_1aee2384717d7fb25e72373e4f796239d6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_admin_window" kindref="compound">AdminWindow</ref></type>
+        <definition>AdminWindow adminLogin::adminwindow</definition>
+        <argsstring></argsstring>
+        <name>adminwindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" line="25" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classadmin_login_1af54a37e045217bf6017dbe8874e1a534" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>adminLogin::adminLogin</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>adminLogin</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" line="15" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.cpp" bodystart="6" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classadmin_login_1a07df3084a4af479f26e556b2216818f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>adminLogin::~adminLogin</definition>
+        <argsstring>()</argsstring>
+        <name>~adminLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" line="16" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classadmin_login_1aecbd5eb0d7ebd742415925b456c18cc0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void adminLogin::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" line="19" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.cpp" bodystart="18" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="slot" id="classadmin_login_1a22cf63b88bca8fdb7d134fc54d88753f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void adminLogin::on_pushButton_back_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_back_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" line="21" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.cpp" bodystart="38" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>adminLogin</label>
+        <link refid="classadmin_login"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>QDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>adminLogin</label>
+        <link refid="classadmin_login"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" line="11" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminlogin.h" bodystart="10" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classadmin_login_1af54a37e045217bf6017dbe8874e1a534" prot="public" virt="non-virtual"><scope>adminLogin</scope><name>adminLogin</name></member>
+      <member refid="classadmin_login_1aee2384717d7fb25e72373e4f796239d6" prot="private" virt="non-virtual"><scope>adminLogin</scope><name>adminwindow</name></member>
+      <member refid="classadmin_login_1a22cf63b88bca8fdb7d134fc54d88753f" prot="private" virt="non-virtual"><scope>adminLogin</scope><name>on_pushButton_back_clicked</name></member>
+      <member refid="classadmin_login_1aecbd5eb0d7ebd742415925b456c18cc0" prot="private" virt="non-virtual"><scope>adminLogin</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classadmin_login_1aab376581a139361f605ed079c55fdc5e" prot="private" virt="non-virtual"><scope>adminLogin</scope><name>ui</name></member>
+      <member refid="classadmin_login_1a07df3084a4af479f26e556b2216818f8" prot="public" virt="non-virtual"><scope>adminLogin</scope><name>~adminLogin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

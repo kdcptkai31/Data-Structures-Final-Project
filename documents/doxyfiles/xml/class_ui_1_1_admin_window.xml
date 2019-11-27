@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui_1_1_admin_window" kind="class" language="C++" prot="public">
+    <compoundname>Ui::AdminWindow</compoundname>
+    <basecompoundref refid="class_ui___admin_window" prot="public" virt="non-virtual">Ui_AdminWindow</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>Ui::AdminWindow</label>
+        <link refid="class_ui_1_1_admin_window"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Ui_AdminWindow</label>
+        <link refid="class_ui___admin_window"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>Ui::AdminWindow</label>
+        <link refid="class_ui_1_1_admin_window"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Ui_AdminWindow</label>
+        <link refid="class_ui___admin_window"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" line="500" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminwindow.h" bodystart="500" bodyend="500"/>
+    <listofallmembers>
+      <member refid="class_ui___admin_window_1a64d3350ade864682f7bc3d6d5ad86723" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>addNewSouv</name></member>
+      <member refid="class_ui___admin_window_1a6d25866a104acf5a95ae8818d552324d" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>addNewSouvButton</name></member>
+      <member refid="class_ui___admin_window_1a8f51b1eb027707e9e42bb140bdd8ae6d" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>backLogin</name></member>
+      <member refid="class_ui___admin_window_1afe3d09dee72fb16a38351e5a4c956094" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>cbLabel</name></member>
+      <member refid="class_ui___admin_window_1aff718173f7bbc9e789e6cbfdce1d3807" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>comboPriceSouv</name></member>
+      <member refid="class_ui___admin_window_1a60eab5cd5e958e61be5f6c6f0e64f530" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>comboTeams</name></member>
+      <member refid="class_ui___admin_window_1a724d1cc3033a7968b2b7a1fcc124aded" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>dbLabel</name></member>
+      <member refid="class_ui___admin_window_1a72abba4320496249c74bf9fb7483d807" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>delSouv</name></member>
+      <member refid="class_ui___admin_window_1aa9c3a0292868d0b79bb56ddb9212b2b5" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>delSouvButton</name></member>
+      <member refid="class_ui___admin_window_1a7bc82ad288367f8b98cf1e619040a1c5" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>delSouvCombo</name></member>
+      <member refid="class_ui___admin_window_1af8196525c7f89af37cdbf6f2f7efda10" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>delSouvLabel</name></member>
+      <member refid="class_ui___admin_window_1a4016ab91bf430023aa614dc46d545444" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>delTeamCombo</name></member>
+      <member refid="class_ui___admin_window_1a8b38c0854f3067ff6021388bae401a17" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>delTeamLabel</name></member>
+      <member refid="class_ui___admin_window_1a696f753c8c8a4475f28ddf20f9905c24" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>done</name></member>
+      <member refid="class_ui___admin_window_1a7fec90065eef84fbcd0088b2d8a717ad" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>formLayout</name></member>
+      <member refid="class_ui___admin_window_1a4f75752d680cddc8c45b46d953c932d7" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>formLayout_2</name></member>
+      <member refid="class_ui___admin_window_1a77b319e8cf6e07d599ad4ad74b9022e6" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>formLayout_3</name></member>
+      <member refid="class_ui___admin_window_1a54dd6d9a5801f4b293460dc128ee6295" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>formLayout_4</name></member>
+      <member refid="class_ui___admin_window_1a817394de561be2b831c28fc7910a1439" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>formLayout_5</name></member>
+      <member refid="class_ui___admin_window_1a62b0bc3a1cab2d2d2423faeeddd5f84d" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>formLayout_6</name></member>
+      <member refid="class_ui___admin_window_1a621e2873cffcf192f2bb9da8357f1909" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>modColCombo</name></member>
+      <member refid="class_ui___admin_window_1ad60ce495422a7c04f7889aae0237b0c2" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>modColLabel</name></member>
+      <member refid="class_ui___admin_window_1a4ffc64d238cf2e26f0a330a443547e3d" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>modEdit</name></member>
+      <member refid="class_ui___admin_window_1a20f92d8aea8b016eae82014775af382d" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>modEditLabel</name></member>
+      <member refid="class_ui___admin_window_1aa4c7fe02cc96e626af62f831fea9ebca" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>modGoButton</name></member>
+      <member refid="class_ui___admin_window_1a079b39fdbd2f20cd9dc3fafaa922413e" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>modifyInfoButton</name></member>
+      <member refid="class_ui___admin_window_1a81ee6cea348dc4421ecc11a6fa8f9329" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>modModButton</name></member>
+      <member refid="class_ui___admin_window_1acf510a2a329fab78425cdbd2bcc2806b" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>modStadCombo</name></member>
+      <member refid="class_ui___admin_window_1a071c831909b0661251351f79ccc7b40f" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>modStadLabel</name></member>
+      <member refid="class_ui___admin_window_1a4b27c041c400a27ab8645b051121c85b" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>newSouvCombo</name></member>
+      <member refid="class_ui___admin_window_1a7d2a036c5944cf71a16c704e24d737c9" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>newSouvEdit</name></member>
+      <member refid="class_ui___admin_window_1a7dd49ebe3461dbf5fd16693a8af50a4c" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>newSouvLabel</name></member>
+      <member refid="class_ui___admin_window_1aea3d03a412857e0f0b943ace34ea16f3" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>newSouvPriceEdit</name></member>
+      <member refid="class_ui___admin_window_1a9e7144734e9e974d1f42163f0551cf09" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>priceChangeButton</name></member>
+      <member refid="class_ui___admin_window_1aafa9e1698dd1909fe785a42564df15ce" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>priceEdit</name></member>
+      <member refid="class_ui___admin_window_1aed8b595646e2a8349b0cddf7669fca39" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>priceGoButton</name></member>
+      <member refid="class_ui___admin_window_1adc238f4553a663ab267d84131874a433" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>priceLabel</name></member>
+      <member refid="class_ui___admin_window_1a4b309b87902d65bc8f4705e6947ac9ac" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>priceSouvLabel</name></member>
+      <member refid="class_ui___admin_window_1a2c1707ce7053e1f0924398e5638b6dda" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>retranslateUi</name></member>
+      <member refid="class_ui___admin_window_1a66b389d6b188fbaca3e2e8af08e373e0" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>setupUi</name></member>
+      <member refid="class_ui___admin_window_1ae775e3610cb9e65d458f0248131cdfa0" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>souvLabel</name></member>
+      <member refid="class_ui___admin_window_1a5fd34b63e12ef340081ce2469dfa8de1" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>souvPriceLabel</name></member>
+      <member refid="class_ui___admin_window_1a3e6896d49e2fb3fa91faff854b84f284" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>sucSailorButton</name></member>
+      <member refid="class_ui___admin_window_1a25b0c826c607699b538a3c41bfac7b6a" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>sucSailorLabel</name></member>
+      <member refid="class_ui___admin_window_1a49913416c98a5d4b161ce6b40b6282ef" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>titleLabel</name></member>
+      <member refid="class_ui___admin_window_1a33486ff8f11715d9bbdb9dd5fa77eb36" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>verticalLayout</name></member>
+      <member refid="class_ui___admin_window_1a7777f42d3712aaf2ceca156d192ac723" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>verticalLayout_2</name></member>
+      <member refid="class_ui___admin_window_1ac6ae604a0e1e53ffa0df7ba9e0cf7563" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>verticalLayout_3</name></member>
+      <member refid="class_ui___admin_window_1a1f904d791dbf9d77bc272e2e55f20156" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>verticalLayout_4</name></member>
+      <member refid="class_ui___admin_window_1acf63d0b9edd449bed7a6fd6505d3f020" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>verticalLayout_5</name></member>
+      <member refid="class_ui___admin_window_1ac230e26c2c4aa54e835a1ad02c942259" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>verticalLayout_6</name></member>
+      <member refid="class_ui___admin_window_1a07959ee48e37a96418db0b5fda530737" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>widget</name></member>
+      <member refid="class_ui___admin_window_1ac1b6bf6a9165171d310bae826ccbed5f" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>widget1</name></member>
+      <member refid="class_ui___admin_window_1a1f070cd00434194db8d7ce191821278e" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>widget2</name></member>
+      <member refid="class_ui___admin_window_1ad9425f7ea37f8b7a7eaefd0d8430038f" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>widget3</name></member>
+      <member refid="class_ui___admin_window_1af741683e6e00449e3e7eb8b2d5033ba5" prot="public" virt="non-virtual"><scope>Ui::AdminWindow</scope><name>widget4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui_1_1souvenirwindow" kind="class" language="C++" prot="public">
+    <compoundname>Ui::souvenirwindow</compoundname>
+    <basecompoundref refid="class_ui__souvenirwindow" prot="public" virt="non-virtual">Ui_souvenirwindow</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="76">
+        <label>Ui::souvenirwindow</label>
+        <link refid="class_ui_1_1souvenirwindow"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>Ui_souvenirwindow</label>
+        <link refid="class_ui__souvenirwindow"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>Ui::souvenirwindow</label>
+        <link refid="class_ui_1_1souvenirwindow"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Ui_souvenirwindow</label>
+        <link refid="class_ui__souvenirwindow"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_souvenirwindow.h" line="85" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_souvenirwindow.h" bodystart="85" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_ui__souvenirwindow_1a92ed126080d735b2ab09afc2d1317675" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>addToCart</name></member>
+      <member refid="class_ui__souvenirwindow_1a541815c951b9d4c62347ef1f18fb1277" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>cart</name></member>
+      <member refid="class_ui__souvenirwindow_1a70915bec2014b44fe5e95e5b885d2988" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>checkOut</name></member>
+      <member refid="class_ui__souvenirwindow_1ad04c75fcbfb4af4b88d3372b6a689096" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>deleteFromCart</name></member>
+      <member refid="class_ui__souvenirwindow_1a6f60487b3b43549c3eba3c97500f5641" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>lineEdit</name></member>
+      <member refid="class_ui__souvenirwindow_1a588d0ebe241c4fd3e4cfbd9c91844c18" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>nextStadium</name></member>
+      <member refid="class_ui__souvenirwindow_1a77986242f1e0c215330925dff9d667f6" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>previousStadium</name></member>
+      <member refid="class_ui__souvenirwindow_1ad8b4d457b100c49ab17f494c619650ea" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>retranslateUi</name></member>
+      <member refid="class_ui__souvenirwindow_1a591c4c914746cd56085250d3ba4ed075" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>setupUi</name></member>
+      <member refid="class_ui__souvenirwindow_1a0a03a332bb6550a7cdc5fefd483e04a8" prot="public" virt="non-virtual"><scope>Ui::souvenirwindow</scope><name>teamSouvenirs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

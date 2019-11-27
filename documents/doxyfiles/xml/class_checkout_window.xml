@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_checkout_window" kind="class" language="C++" prot="public">
+    <compoundname>CheckoutWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_checkout_window_1af7ead01cb3744cd05a7b0e705488489c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ui_1_1_checkout_window" kindref="compound">Ui::CheckoutWindow</ref> *</type>
+        <definition>Ui::CheckoutWindow* CheckoutWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="62" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_checkout_window_1aed570d8035e7c0b74108dc5dd5802e57" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CheckoutWindow::CheckoutWindow</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>CheckoutWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="18" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.cpp" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_checkout_window_1a5fab2958fac97a8a986065cb4ccf8d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>CheckoutWindow::invalidCVV</definition>
+        <argsstring>(QString cvv)</argsstring>
+        <name>invalidCVV</name>
+        <param>
+          <type>QString</type>
+          <declname>cvv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cvv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="25" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.cpp" bodystart="134" bodyend="147"/>
+        <references refid="class_checkout_window_1ad3d3908e0916fbb5abdc134d7d1bcb03" compoundref="checkoutwindow_8cpp" startline="87" endline="98">checkNum</references>
+      </memberdef>
+      <memberdef kind="function" id="class_checkout_window_1a28612fc41a4491136ae4327363cbeb74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>CheckoutWindow::invalidCardNumber</definition>
+        <argsstring>(QString cardNum)</argsstring>
+        <name>invalidCardNumber</name>
+        <param>
+          <type>QString</type>
+          <declname>cardNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cardNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="32" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.cpp" bodystart="114" bodyend="127"/>
+        <references refid="class_checkout_window_1ad3d3908e0916fbb5abdc134d7d1bcb03" compoundref="checkoutwindow_8cpp" startline="87" endline="98">checkNum</references>
+      </memberdef>
+      <memberdef kind="function" id="class_checkout_window_1ad3d3908e0916fbb5abdc134d7d1bcb03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>CheckoutWindow::checkNum</definition>
+        <argsstring>(QChar postion)</argsstring>
+        <name>checkNum</name>
+        <param>
+          <type>QChar</type>
+          <declname>postion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>postion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="39" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.cpp" bodystart="87" bodyend="98"/>
+        <referencedby refid="class_checkout_window_1a28612fc41a4491136ae4327363cbeb74" compoundref="checkoutwindow_8cpp" startline="114" endline="127">invalidCardNumber</referencedby>
+        <referencedby refid="class_checkout_window_1a5fab2958fac97a8a986065cb4ccf8d03" compoundref="checkoutwindow_8cpp" startline="134" endline="147">invalidCVV</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_checkout_window_1ad1f94db6289c46894f85e5c837922cc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>CheckoutWindow::setUserameLabel</definition>
+        <argsstring>()</argsstring>
+        <name>setUserameLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="44" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.cpp" bodystart="103" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_checkout_window_1ab13e59cb5669b6548a15e61738b1c039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CheckoutWindow::~CheckoutWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~CheckoutWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="47" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_checkout_window_1a5e54fa6bc819b1896f5bd8f5cf9374de" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>CheckoutWindow::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="53" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.cpp" bodystart="29" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_checkout_window_1a29e78f49126315b8d52d6e0bf1204ac7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>CheckoutWindow::on_pushButton_2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="58" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.cpp" bodystart="71" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>QWidget</label>
+      </node>
+      <node id="18">
+        <label>CheckoutWindow</label>
+        <link refid="class_checkout_window"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>QWidget</label>
+      </node>
+      <node id="20">
+        <label>CheckoutWindow</label>
+        <link refid="class_checkout_window"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" line="10" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h" bodystart="9" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_checkout_window_1ad3d3908e0916fbb5abdc134d7d1bcb03" prot="public" virt="non-virtual"><scope>CheckoutWindow</scope><name>checkNum</name></member>
+      <member refid="class_checkout_window_1aed570d8035e7c0b74108dc5dd5802e57" prot="public" virt="non-virtual"><scope>CheckoutWindow</scope><name>CheckoutWindow</name></member>
+      <member refid="class_checkout_window_1a28612fc41a4491136ae4327363cbeb74" prot="public" virt="non-virtual"><scope>CheckoutWindow</scope><name>invalidCardNumber</name></member>
+      <member refid="class_checkout_window_1a5fab2958fac97a8a986065cb4ccf8d03" prot="public" virt="non-virtual"><scope>CheckoutWindow</scope><name>invalidCVV</name></member>
+      <member refid="class_checkout_window_1a29e78f49126315b8d52d6e0bf1204ac7" prot="private" virt="non-virtual"><scope>CheckoutWindow</scope><name>on_pushButton_2_clicked</name></member>
+      <member refid="class_checkout_window_1a5e54fa6bc819b1896f5bd8f5cf9374de" prot="private" virt="non-virtual"><scope>CheckoutWindow</scope><name>on_pushButton_clicked</name></member>
+      <member refid="class_checkout_window_1ad1f94db6289c46894f85e5c837922cc4" prot="public" virt="non-virtual"><scope>CheckoutWindow</scope><name>setUserameLabel</name></member>
+      <member refid="class_checkout_window_1af7ead01cb3744cd05a7b0e705488489c" prot="private" virt="non-virtual"><scope>CheckoutWindow</scope><name>ui</name></member>
+      <member refid="class_checkout_window_1ab13e59cb5669b6548a15e61738b1c039" prot="public" virt="non-virtual"><scope>CheckoutWindow</scope><name>~CheckoutWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

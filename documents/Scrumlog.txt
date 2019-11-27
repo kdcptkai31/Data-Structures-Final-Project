@@ -1,0 +1,63 @@
+Big O(Richard)
+
+=== 03/12/18 - S0M1 ===
+
+Planned Goals: 
+- Derrive team name
+- Assign users roles
+- Team guidelines are being discussed
+
+Outcome: 
+  Team name was decided
+  Team members have been assigned roles
+
+Notes: 
+  The sprint hasn't begun, scrum log is marked as Sprint 0
+	
+-------------------------------------------------------------------------------------------------------------
+
+=== 03/19/18 - S1M1 ===
+
+Planned Goals: 
+- Do stories 1 & 2
+	
+-------------------------------------------------------------------------------------------------------------
+
+=== 4/2/18 - S1M2 ===
+
+Planned Goals: 
+- Resolved team work load
+	
+-------------------------------------------------------------------------------------------------------------
+
+=== 4/11/18 - S2M3 ===
+
+Planned Goals: 
+- Rewrite stories
+- Fix stories 1 & 2
+- Clean UI
+- Work on S2 stories
+- Fix Admins features
+
+Outcome: 
+  Project name resolved
+  Team photo resolved
+	
+-------------------------------------------------------------------------------------------------------------
+
+=== 4/16/18 - S2M4 ===
+
+Planned Goals: 
+- Prepare for sprint review
+- Implement more Randy photos
+- Fix our terrible UI
+- Fix the trip algorithm
+	
+-------------------------------------------------------------------------------------------------------------
+
+=== 4/30/18 - S3M5 ===
+
+Planned Goals: 
+- Still working on the trip algorithm
+	
+-------------------------------------------------------------------------------------------------------------

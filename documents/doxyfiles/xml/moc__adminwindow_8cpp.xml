@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="moc__adminwindow_8cpp" kind="file" language="C++">
+    <compoundname>moc_adminwindow.cpp</compoundname>
+    <includes refid="adminwindow_8h" local="yes">adminwindow.h</includes>
+    <includes local="no">QtCore/qbytearray.h</includes>
+    <includes local="no">QtCore/qmetatype.h</includes>
+    <incdepgraph>
+      <node id="465">
+        <label>QMessageBox</label>
+      </node>
+      <node id="462">
+        <label>adminwindow.h</label>
+        <link refid="adminwindow_8h_source"/>
+        <childnode refid="463" relation="include">
+        </childnode>
+        <childnode refid="464" relation="include">
+        </childnode>
+        <childnode refid="465" relation="include">
+        </childnode>
+        <childnode refid="466" relation="include">
+        </childnode>
+        <childnode refid="467" relation="include">
+        </childnode>
+        <childnode refid="468" relation="include">
+        </childnode>
+        <childnode refid="469" relation="include">
+        </childnode>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="473" relation="include">
+        </childnode>
+      </node>
+      <node id="467">
+        <label>QObject</label>
+      </node>
+      <node id="461">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_adminwindow.cpp</label>
+        <link refid="moc__adminwindow_8cpp"/>
+        <childnode refid="462" relation="include">
+        </childnode>
+        <childnode refid="479" relation="include">
+        </childnode>
+        <childnode refid="480" relation="include">
+        </childnode>
+      </node>
+      <node id="473">
+        <label>database.h</label>
+        <link refid="database_8h_source"/>
+        <childnode refid="474" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="469" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+      </node>
+      <node id="469">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="468">
+        <label>QApplication</label>
+      </node>
+      <node id="466">
+        <label>QDialog</label>
+      </node>
+      <node id="477">
+        <label>QDebug</label>
+      </node>
+      <node id="474">
+        <label>QString</label>
+      </node>
+      <node id="475">
+        <label>QSqlRecord</label>
+      </node>
+      <node id="471">
+        <label>QSqlError</label>
+      </node>
+      <node id="463">
+        <label>QFile</label>
+      </node>
+      <node id="478">
+        <label>QSqlQueryModel</label>
+      </node>
+      <node id="470">
+        <label>QSqlDriver</label>
+      </node>
+      <node id="479">
+        <label>QtCore/qbytearray.h</label>
+      </node>
+      <node id="472">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="464">
+        <label>QTextStream</label>
+      </node>
+      <node id="480">
+        <label>QtCore/qmetatype.h</label>
+      </node>
+      <node id="476">
+        <label>QFileInfo</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structqt__meta__stringdata___admin_window__t" prot="public">qt_meta_stringdata_AdminWindow_t</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="moc__adminwindow_8cpp_1a75bb9482d242cde0a06c9dbdc6b83abe" prot="public" static="no">
+        <name>QT_MOC_LITERAL</name>
+        <param><defname>idx</defname></param>
+        <param><defname>ofs</defname></param>
+        <param><defname>len</defname></param>
+        <initializer>Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(<ref refid="structqt__meta__stringdata___admin_window__t" kindref="compound">qt_meta_stringdata_AdminWindow_t</ref>, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_adminwindow.cpp" line="27" column="9" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_adminwindow.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="moc__adminwindow_8cpp_1a509f629d815fdd76afc96b4c7ca7b829" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structqt__meta__stringdata___admin_window__t" kindref="compound">qt_meta_stringdata_AdminWindow_t</ref></type>
+        <definition>const qt_meta_stringdata_AdminWindow_t qt_meta_stringdata_AdminWindow</definition>
+        <argsstring></argsstring>
+        <name>qt_meta_stringdata_AdminWindow</name>
+        <initializer>= {
+    {
+QT_MOC_LITERAL(0, 0, 11), 
+QT_MOC_LITERAL(1, 12, 26), 
+QT_MOC_LITERAL(2, 39, 0), 
+QT_MOC_LITERAL(3, 40, 28), 
+QT_MOC_LITERAL(4, 69, 15), 
+QT_MOC_LITERAL(5, 85, 24), 
+QT_MOC_LITERAL(6, 110, 27), 
+QT_MOC_LITERAL(7, 138, 21), 
+QT_MOC_LITERAL(8, 160, 24), 
+QT_MOC_LITERAL(9, 185, 18), 
+QT_MOC_LITERAL(10, 204, 27), 
+QT_MOC_LITERAL(11, 232, 22), 
+QT_MOC_LITERAL(12, 255, 23), 
+QT_MOC_LITERAL(13, 279, 20) 
+
+    },
+    &quot;AdminWindow\0on_sucSailorButton_clicked\0&quot;
+    &quot;\0on_priceChangeButton_clicked\0&quot;
+    &quot;on_done_clicked\0on_priceGoButton_clicked\0&quot;
+    &quot;on_addNewSouvButton_clicked\0&quot;
+    &quot;on_addNewSouv_clicked\0on_delSouvButton_clicked\0&quot;
+    &quot;on_delSouv_clicked\0on_modifyInfoButton_clicked\0&quot;
+    &quot;on_modGoButton_clicked\0on_modModButton_clicked\0&quot;
+    &quot;on_backLogin_clicked&quot;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_adminwindow.cpp" line="32" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_adminwindow.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="moc__adminwindow_8cpp_1a055c5565e729f183db32ea2c64a19892" prot="public" static="yes" mutable="no">
+        <type>const uint</type>
+        <definition>const uint qt_meta_data_AdminWindow[]</definition>
+        <argsstring>[]</argsstring>
+        <name>qt_meta_data_AdminWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_adminwindow.cpp" line="61" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_adminwindow.cpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>Meta<sp/>object<sp/>code<sp/>from<sp/>reading<sp/>C++<sp/>file<sp/>&apos;adminwindow.h&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created<sp/>by:<sp/>The<sp/>Qt<sp/>Meta<sp/>Object<sp/>Compiler<sp/>version<sp/>67<sp/>(Qt<sp/>5.9.2)</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;adminwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/qbytearray.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/qmetatype.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Q_MOC_OUTPUT_REVISION)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;The<sp/>header<sp/>file<sp/>&apos;adminwindow.h&apos;<sp/>doesn&apos;t<sp/>include<sp/>&lt;QObject&gt;.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>Q_MOC_OUTPUT_REVISION<sp/>!=<sp/>67</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;This<sp/>file<sp/>was<sp/>generated<sp/>using<sp/>the<sp/>moc<sp/>from<sp/>5.9.2.<sp/>It&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;cannot<sp/>be<sp/>used<sp/>with<sp/>the<sp/>include<sp/>files<sp/>from<sp/>this<sp/>version<sp/>of<sp/>Qt.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;(The<sp/>moc<sp/>has<sp/>changed<sp/>too<sp/>much.)&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">QT_BEGIN_MOC_NAMESPACE</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">QT_WARNING_PUSH</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">QT_WARNING_DISABLE_DEPRECATED</highlight></codeline>
+<codeline lineno="23" refid="structqt__meta__stringdata___admin_window__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structqt__meta__stringdata___admin_window__t" kindref="compound">qt_meta_stringdata_AdminWindow_t</ref><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArrayData<sp/>data[14];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>stringdata0[300];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>QT_MOC_LITERAL(idx,<sp/>ofs,<sp/>len)<sp/>\</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len,<sp/>\</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>qptrdiff(offsetof(qt_meta_stringdata_AdminWindow_t,<sp/>stringdata0)<sp/>+<sp/>ofs<sp/>\</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>idx<sp/>*<sp/>sizeof(QByteArrayData))<sp/>\</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structqt__meta__stringdata___admin_window__t" kindref="compound">qt_meta_stringdata_AdminWindow_t</ref><sp/>qt_meta_stringdata_AdminWindow<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">QT_MOC_LITERAL(0,<sp/>0,<sp/>11),<sp/></highlight><highlight class="comment">//<sp/>&quot;AdminWindow&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">QT_MOC_LITERAL(1,<sp/>12,<sp/>26),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_sucSailorButton_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">QT_MOC_LITERAL(2,<sp/>39,<sp/>0),<sp/></highlight><highlight class="comment">//<sp/>&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">QT_MOC_LITERAL(3,<sp/>40,<sp/>28),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_priceChangeButton_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">QT_MOC_LITERAL(4,<sp/>69,<sp/>15),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_done_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">QT_MOC_LITERAL(5,<sp/>85,<sp/>24),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_priceGoButton_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">QT_MOC_LITERAL(6,<sp/>110,<sp/>27),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_addNewSouvButton_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">QT_MOC_LITERAL(7,<sp/>138,<sp/>21),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_addNewSouv_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">QT_MOC_LITERAL(8,<sp/>160,<sp/>24),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_delSouvButton_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">QT_MOC_LITERAL(9,<sp/>185,<sp/>18),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_delSouv_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">QT_MOC_LITERAL(10,<sp/>204,<sp/>27),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_modifyInfoButton_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">QT_MOC_LITERAL(11,<sp/>232,<sp/>22),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_modGoButton_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">QT_MOC_LITERAL(12,<sp/>255,<sp/>23),<sp/></highlight><highlight class="comment">//<sp/>&quot;on_modModButton_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">QT_MOC_LITERAL(13,<sp/>279,<sp/>20)<sp/></highlight><highlight class="comment">//<sp/>&quot;on_backLogin_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;AdminWindow\0on_sucSailorButton_clicked\0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\0on_priceChangeButton_clicked\0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;on_done_clicked\0on_priceGoButton_clicked\0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;on_addNewSouvButton_clicked\0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;on_addNewSouv_clicked\0on_delSouvButton_clicked\0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;on_delSouv_clicked\0on_modifyInfoButton_clicked\0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;on_modGoButton_clicked\0on_modModButton_clicked\0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;on_backLogin_clicked&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>QT_MOC_LITERAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint<sp/>qt_meta_data_AdminWindow[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>content:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>revision</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>classname</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/>0,<sp/></highlight><highlight class="comment">//<sp/>classinfo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>12,<sp/><sp/><sp/>14,<sp/></highlight><highlight class="comment">//<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/>0,<sp/></highlight><highlight class="comment">//<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/>0,<sp/></highlight><highlight class="comment">//<sp/>enums/sets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/>0,<sp/></highlight><highlight class="comment">//<sp/>constructors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>flags</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>signalCount</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>slots:<sp/>name,<sp/>argc,<sp/>parameters,<sp/>tag,<sp/>flags</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>74,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>75,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>76,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>77,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>78,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>79,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>80,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>81,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>10,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>82,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>11,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>83,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>12,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>84,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>13,<sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/>85,<sp/><sp/><sp/><sp/>2,<sp/>0x08<sp/></highlight><highlight class="comment">/*<sp/>Private<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>slots:<sp/>parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaType::Void,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>eod</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AdminWindow::qt_static_metacall(QObject<sp/>*_o,<sp/>QMetaObject::Call<sp/>_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_a)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_c<sp/>==<sp/>QMetaObject::InvokeMetaMethod)<sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_admin_window" kindref="compound">AdminWindow</ref><sp/>*_t<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="class_admin_window" kindref="compound">AdminWindow</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(_o);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Q_UNUSED(_t)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(_id)<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/>_t-&gt;on_sucSailorButton_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:<sp/>_t-&gt;on_priceChangeButton_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:<sp/>_t-&gt;on_done_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:<sp/>_t-&gt;on_priceGoButton_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:<sp/>_t-&gt;on_addNewSouvButton_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:<sp/>_t-&gt;on_addNewSouv_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>6:<sp/>_t-&gt;on_delSouvButton_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>7:<sp/>_t-&gt;on_delSouv_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>8:<sp/>_t-&gt;on_modifyInfoButton_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>9:<sp/>_t-&gt;on_modGoButton_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>10:<sp/>_t-&gt;on_modModButton_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>11:<sp/>_t-&gt;on_backLogin_clicked();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_UNUSED(_a);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaObject<sp/>AdminWindow::staticMetaObject<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>&amp;QDialog::staticMetaObject,<sp/>qt_meta_stringdata_AdminWindow.data,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>qt_meta_data_AdminWindow,<sp/><sp/>qt_static_metacall,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaObject<sp/>*AdminWindow::metaObject()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="136"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QObject::d_ptr-&gt;metaObject<sp/>?<sp/>QObject::d_ptr-&gt;dynamicMetaObject()<sp/>:<sp/>&amp;staticMetaObject;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*AdminWindow::qt_metacast(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_clname)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_clname)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!strcmp(_clname,<sp/>qt_meta_stringdata_AdminWindow.stringdata0))</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QDialog::qt_metacast(_clname);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>AdminWindow::qt_metacall(QMetaObject::Call<sp/>_c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_a)</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>_id<sp/>=<sp/>QDialog::qt_metacall(_c,<sp/>_id,<sp/>_a);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_id<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_id;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_c<sp/>==<sp/>QMetaObject::InvokeMetaMethod)<sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_id<sp/>&lt;<sp/>12)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qt_static_metacall(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>_c,<sp/>_id,<sp/>_a);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_id<sp/>-=<sp/>12;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_c<sp/>==<sp/>QMetaObject::RegisterMethodArgumentMetaType)<sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_id<sp/>&lt;<sp/>12)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(_a[0])<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_id<sp/>-=<sp/>12;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_id;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">QT_WARNING_POP</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">QT_END_MOC_NAMESPACE</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_adminwindow.cpp"/>
+  </compounddef>
+</doxygen>

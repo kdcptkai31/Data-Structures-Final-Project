@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_database" kind="class" language="C++" prot="public">
+    <compoundname>Database</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QSqlDatabase</basecompoundref>
+    <includes refid="database_8h" local="no">database.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_database_1a218c3d01a469070b46811fd1bf3f0145" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Database::created</definition>
+        <argsstring></argsstring>
+        <name>created</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="37" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_database_1a1905e536e98ee43181f64ebf2ce09b5e" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_database" kindref="compound">Database</ref> *</type>
+        <definition>Database * Database::globalBCInstance</definition>
+        <argsstring></argsstring>
+        <name>globalBCInstance</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="43" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_database_1a5fb61ee7bb582c53e52f322ace0a787e" prot="public" static="no" mutable="no">
+        <type>QSqlDatabase</type>
+        <definition>loads Database::db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <briefdescription>
+<para>Autoload. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="58" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_database_1a4703c80e6969d33565ea340f768fdadf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Database::Database</definition>
+        <argsstring>()</argsstring>
+        <name>Database</name>
+        <briefdescription>
+<para><ref refid="class_database" kindref="compound">Database</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="48" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" bodystart="48" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_database_1a5a3b028f980a577ea0b809eb92312761" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_database" kindref="compound">Database</ref> *</type>
+        <definition>Database * Database::getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="64" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.cpp" bodystart="20" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_database_1ad66f4bc573f50c74ad00a856c9fc8de0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Database::SetDBPath</definition>
+        <argsstring>(const QString &amp;path)</argsstring>
+        <name>SetDBPath</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="70" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.cpp" bodystart="39" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_1ac03843eb8cfe802cf2cabdf8a4448ca5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Database::Autoload</definition>
+        <argsstring>()</argsstring>
+        <name>Autoload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_1a84d399a2ad58d69daab9b05330e1316d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Database::~Database</definition>
+        <argsstring>()</argsstring>
+        <name>~Database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="77" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_database_1a7f2784e4eb4771dc52d3bf19c768aefa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Database::isCreated</definition>
+        <argsstring>()</argsstring>
+        <name>isCreated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="86" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" bodystart="86" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_database" kindref="compound">Database</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+<para>This database class aquires a singleton connection and will be used to communicate with the SQL file </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="26">
+        <label>Database</label>
+        <link refid="class_database"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>QSqlDatabase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="28">
+        <label>Database</label>
+        <link refid="class_database"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>QSqlDatabase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" line="29" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/database.h" bodystart="28" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_database_1ac03843eb8cfe802cf2cabdf8a4448ca5" prot="public" virt="non-virtual"><scope>Database</scope><name>Autoload</name></member>
+      <member refid="class_database_1a218c3d01a469070b46811fd1bf3f0145" prot="private" virt="non-virtual"><scope>Database</scope><name>created</name></member>
+      <member refid="class_database_1a4703c80e6969d33565ea340f768fdadf" prot="private" virt="non-virtual"><scope>Database</scope><name>Database</name></member>
+      <member refid="class_database_1a5fb61ee7bb582c53e52f322ace0a787e" prot="public" virt="non-virtual"><scope>Database</scope><name>db</name></member>
+      <member refid="class_database_1a5a3b028f980a577ea0b809eb92312761" prot="public" virt="non-virtual"><scope>Database</scope><name>getInstance</name></member>
+      <member refid="class_database_1a1905e536e98ee43181f64ebf2ce09b5e" prot="private" virt="non-virtual"><scope>Database</scope><name>globalBCInstance</name></member>
+      <member refid="class_database_1a7f2784e4eb4771dc52d3bf19c768aefa" prot="public" virt="non-virtual"><scope>Database</scope><name>isCreated</name></member>
+      <member refid="class_database_1ad66f4bc573f50c74ad00a856c9fc8de0" prot="public" virt="non-virtual"><scope>Database</scope><name>SetDBPath</name></member>
+      <member refid="class_database_1a84d399a2ad58d69daab9b05330e1316d" prot="public" virt="non-virtual"><scope>Database</scope><name>~Database</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

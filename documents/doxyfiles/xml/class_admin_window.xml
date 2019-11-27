@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_admin_window" kind="class" language="C++" prot="public">
+    <compoundname>AdminWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_admin_window_1a3fa27571cf4952084a71a6fdc9b070b2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ui_1_1_admin_window" kindref="compound">Ui::AdminWindow</ref> *</type>
+        <definition>Ui::AdminWindow* AdminWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="58" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_admin_window_1a423d50b607bc6ce14833f3cd6a8740bb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_database" kindref="compound">Database</ref> *</type>
+        <definition>Database* AdminWindow::m_db</definition>
+        <argsstring></argsstring>
+        <name>m_db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="59" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_admin_window_1aaed2b5c11f7ffc99dc4d9fd9ed6ce351" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AdminWindow::priceChangeCount</definition>
+        <argsstring></argsstring>
+        <name>priceChangeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="60" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_admin_window_1ab736eea85980ac84295232f186228b2f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AdminWindow::addNewSouvBCount</definition>
+        <argsstring></argsstring>
+        <name>addNewSouvBCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="61" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_admin_window_1abfc769f5c2a0656f917398d4ec7b3fd1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AdminWindow::delSouvCount</definition>
+        <argsstring></argsstring>
+        <name>delSouvCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="62" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_admin_window_1a1fc6ed28fea22157c6b6dd1396d10644" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AdminWindow::modCount</definition>
+        <argsstring></argsstring>
+        <name>modCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="63" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_admin_window_1a96ca8ed41047cc4fba39f79ce4dfeaea" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString AdminWindow::stadiumName</definition>
+        <argsstring></argsstring>
+        <name>stadiumName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="64" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_admin_window_1a7488586133415e3a54ab1aa4f963df46" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString AdminWindow::columnName</definition>
+        <argsstring></argsstring>
+        <name>columnName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="65" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_admin_window_1a9851707c3d87acec48db6db86ae04ca4" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AdminWindow::AdminWindow</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>AdminWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_admin_window_1a9851707c3d87acec48db6db86ae04ca4" kindref="member">AdminWindow::AdminWindow</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The admin window class allows for the use of the basic (default) admin windows. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="40" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="13" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_admin_window_1ad31a734a759bfb65008b03e6bb9014d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AdminWindow::~AdminWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~AdminWindow</name>
+        <briefdescription>
+<para><ref refid="class_admin_window_1ad31a734a759bfb65008b03e6bb9014d0" kindref="member">AdminWindow::~AdminWindow</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Deconstructor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="41" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_admin_window_1aa561ed9e5e832c901505059e874bfb8d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_sucSailorButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_sucSailorButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="44" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="63" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1a80ad12b166fe80a81b85b9ea1bded32e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_priceChangeButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_priceChangeButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="45" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="117" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1afe5bf3a1bdeaa8ef04e1acaf7d8d9c88" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_done_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_done_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="46" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="794" bodyend="824"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1a3ff2a3ff2960189928e8c714d6ad5f73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_priceGoButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_priceGoButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="47" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="223" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1a3d05230e8148abbf5507eed01a7c4902" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_addNewSouvButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_addNewSouvButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="48" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="258" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1acfe7908d14352a935ac44c9023d55f28" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_addNewSouv_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_addNewSouv_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="49" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="334" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1adb1dbf58f74a7dfffed329c62e54e726" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_delSouvButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_delSouvButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="50" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="403" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1a3d4dc7cfdb72e77070cef76403c36177" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_delSouv_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_delSouv_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="51" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="508" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1a038453ac2adcaa18b9f9b080beacdc17" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_modifyInfoButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_modifyInfoButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="52" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="532" bodyend="630"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1ab99a1fe7173e47dc4a20b372b179c4b7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_modGoButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_modGoButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="53" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="636" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1adb9852e9eec86d94aa5a483a2c1fd0c4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_modModButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_modModButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="54" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="654" bodyend="788"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_admin_window_1ab72fe1c246c02994374415a68dfb2ba5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AdminWindow::on_backLogin_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_backLogin_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="55" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.cpp" bodystart="830" bodyend="835"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>AdminWindow</label>
+        <link refid="class_admin_window"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>QDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>AdminWindow</label>
+        <link refid="class_admin_window"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>QDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" line="36" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/adminwindow.h" bodystart="35" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_admin_window_1ab736eea85980ac84295232f186228b2f" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>addNewSouvBCount</name></member>
+      <member refid="class_admin_window_1a9851707c3d87acec48db6db86ae04ca4" prot="public" virt="non-virtual"><scope>AdminWindow</scope><name>AdminWindow</name></member>
+      <member refid="class_admin_window_1a7488586133415e3a54ab1aa4f963df46" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>columnName</name></member>
+      <member refid="class_admin_window_1abfc769f5c2a0656f917398d4ec7b3fd1" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>delSouvCount</name></member>
+      <member refid="class_admin_window_1a423d50b607bc6ce14833f3cd6a8740bb" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>m_db</name></member>
+      <member refid="class_admin_window_1a1fc6ed28fea22157c6b6dd1396d10644" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>modCount</name></member>
+      <member refid="class_admin_window_1acfe7908d14352a935ac44c9023d55f28" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_addNewSouv_clicked</name></member>
+      <member refid="class_admin_window_1a3d05230e8148abbf5507eed01a7c4902" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_addNewSouvButton_clicked</name></member>
+      <member refid="class_admin_window_1ab72fe1c246c02994374415a68dfb2ba5" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_backLogin_clicked</name></member>
+      <member refid="class_admin_window_1a3d4dc7cfdb72e77070cef76403c36177" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_delSouv_clicked</name></member>
+      <member refid="class_admin_window_1adb1dbf58f74a7dfffed329c62e54e726" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_delSouvButton_clicked</name></member>
+      <member refid="class_admin_window_1afe5bf3a1bdeaa8ef04e1acaf7d8d9c88" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_done_clicked</name></member>
+      <member refid="class_admin_window_1ab99a1fe7173e47dc4a20b372b179c4b7" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_modGoButton_clicked</name></member>
+      <member refid="class_admin_window_1a038453ac2adcaa18b9f9b080beacdc17" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_modifyInfoButton_clicked</name></member>
+      <member refid="class_admin_window_1adb9852e9eec86d94aa5a483a2c1fd0c4" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_modModButton_clicked</name></member>
+      <member refid="class_admin_window_1a80ad12b166fe80a81b85b9ea1bded32e" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_priceChangeButton_clicked</name></member>
+      <member refid="class_admin_window_1a3ff2a3ff2960189928e8c714d6ad5f73" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_priceGoButton_clicked</name></member>
+      <member refid="class_admin_window_1aa561ed9e5e832c901505059e874bfb8d" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>on_sucSailorButton_clicked</name></member>
+      <member refid="class_admin_window_1aaed2b5c11f7ffc99dc4d9fd9ed6ce351" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>priceChangeCount</name></member>
+      <member refid="class_admin_window_1a96ca8ed41047cc4fba39f79ce4dfeaea" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>stadiumName</name></member>
+      <member refid="class_admin_window_1a3fa27571cf4952084a71a6fdc9b070b2" prot="private" virt="non-virtual"><scope>AdminWindow</scope><name>ui</name></member>
+      <member refid="class_admin_window_1ad31a734a759bfb65008b03e6bb9014d0" prot="public" virt="non-virtual"><scope>AdminWindow</scope><name>~AdminWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

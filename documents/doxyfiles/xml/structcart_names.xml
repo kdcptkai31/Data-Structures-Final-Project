@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="structcart_names" kind="struct" language="C++" prot="public">
+    <compoundname>cartNames</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcart_names_1a6d14a0b9d401ef0af7e7154de6285caa" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString cartNames::itemName</definition>
+        <argsstring></argsstring>
+        <name>itemName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="24" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcart_names_1a500408da5f0a027480f68711279d6ccc" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString cartNames::teamName</definition>
+        <argsstring></argsstring>
+        <name>teamName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="25" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="23" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="23" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structcart_names_1a6d14a0b9d401ef0af7e7154de6285caa" prot="public" virt="non-virtual"><scope>cartNames</scope><name>itemName</name></member>
+      <member refid="structcart_names_1a500408da5f0a027480f68711279d6ccc" prot="public" virt="non-virtual"><scope>cartNames</scope><name>teamName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

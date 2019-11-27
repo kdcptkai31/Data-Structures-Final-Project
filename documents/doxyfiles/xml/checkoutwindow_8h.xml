@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="checkoutwindow_8h" kind="file" language="C++">
+    <compoundname>checkoutwindow.h</compoundname>
+    <includes local="no">QWidget</includes>
+    <includedby refid="souvenirwindow_8h" local="yes">C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h</includedby>
+    <includedby refid="checkoutwindow_8cpp" local="yes">C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.cpp</includedby>
+    <includedby refid="moc__checkoutwindow_8cpp" local="yes">C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/moc_checkoutwindow.cpp</includedby>
+    <incdepgraph>
+      <node id="158">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h</label>
+        <link refid="checkoutwindow_8h"/>
+        <childnode refid="159" relation="include">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>QWidget</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="163">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/login.h</label>
+        <link refid="login_8h_source"/>
+      </node>
+      <node id="162">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h</label>
+        <link refid="mainwindow_8h_source"/>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h</label>
+        <link refid="checkoutwindow_8h"/>
+        <childnode refid="161" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h</label>
+        <link refid="souvenirwindow_8h_source"/>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_checkout_window" prot="public">CheckoutWindow</innerclass>
+    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CHECKOUTWINDOW_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CHECKOUTWINDOW_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_checkout_window" kindref="compound">CheckoutWindow</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_checkout_window" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_checkout_window" kindref="compound">CheckoutWindow</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_checkout_window_1aed570d8035e7c0b74108dc5dd5802e57" kindref="member">CheckoutWindow</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_checkout_window_1a5fab2958fac97a8a986065cb4ccf8d03" kindref="member">invalidCVV</ref>(QString<sp/>cvv);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_checkout_window_1a28612fc41a4491136ae4327363cbeb74" kindref="member">invalidCardNumber</ref>(QString<sp/>cardNum);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_checkout_window_1ad3d3908e0916fbb5abdc134d7d1bcb03" kindref="member">checkNum</ref>(QChar<sp/>postion);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setUserameLabel();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="class_checkout_window" kindref="compound">CheckoutWindow</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_clicked();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_2_clicked();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ui_1_1_checkout_window" kindref="compound">Ui::CheckoutWindow</ref><sp/>*ui;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKOUTWINDOW_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/checkoutwindow.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui__admin_login" kind="class" language="C++" prot="public">
+    <compoundname>Ui_adminLogin</compoundname>
+    <derivedcompoundref refid="class_ui_1_1admin_login" prot="public" virt="non-virtual">Ui::adminLogin</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ui__admin_login_1a60e2b28ba995219be329de77bffd2510" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_adminLogin::lineEdit_Pass</definition>
+        <argsstring></argsstring>
+        <name>lineEdit_Pass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="27" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__admin_login_1a190de661e21bc7e99eef24774a2f0ef9" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_adminLogin::pushButton</definition>
+        <argsstring></argsstring>
+        <name>pushButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="28" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__admin_login_1aa057f29fe6d99056b79cb061a36183a5" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_adminLogin::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="29" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__admin_login_1a1e16bd34bb34ff77d43bcc721eff7740" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_adminLogin::label_2</definition>
+        <argsstring></argsstring>
+        <name>label_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="30" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__admin_login_1a8ba430a94e0fae798e685b2ffebd5f88" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_adminLogin::lineEdit_User</definition>
+        <argsstring></argsstring>
+        <name>lineEdit_User</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="31" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__admin_login_1a38af97e90a7d9756215863fd3e1f0d2b" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_adminLogin::pushButton_back</definition>
+        <argsstring></argsstring>
+        <name>pushButton_back</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="32" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__admin_login_1af4b4108097ceb9c24f1149ed00bb3b5a" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_adminLogin::label_3</definition>
+        <argsstring></argsstring>
+        <name>label_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="33" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ui__admin_login_1aa8777c76c85e8a71d5e2641651eda434" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_adminLogin::setupUi</definition>
+        <argsstring>(QDialog *adminLogin)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>adminLogin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="35" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="35" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui__admin_login_1a2a9d242468a1107cbc7b0d89b919dd2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_adminLogin::retranslateUi</definition>
+        <argsstring>(QDialog *adminLogin)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>adminLogin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="161" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="161" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="87">
+        <label>Ui::adminLogin</label>
+        <link refid="class_ui_1_1admin_login"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>Ui_adminLogin</label>
+        <link refid="class_ui__admin_login"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" line="25" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_adminlogin.h" bodystart="24" bodyend="175"/>
+    <listofallmembers>
+      <member refid="class_ui__admin_login_1aa057f29fe6d99056b79cb061a36183a5" prot="public" virt="non-virtual"><scope>Ui_adminLogin</scope><name>label</name></member>
+      <member refid="class_ui__admin_login_1a1e16bd34bb34ff77d43bcc721eff7740" prot="public" virt="non-virtual"><scope>Ui_adminLogin</scope><name>label_2</name></member>
+      <member refid="class_ui__admin_login_1af4b4108097ceb9c24f1149ed00bb3b5a" prot="public" virt="non-virtual"><scope>Ui_adminLogin</scope><name>label_3</name></member>
+      <member refid="class_ui__admin_login_1a60e2b28ba995219be329de77bffd2510" prot="public" virt="non-virtual"><scope>Ui_adminLogin</scope><name>lineEdit_Pass</name></member>
+      <member refid="class_ui__admin_login_1a8ba430a94e0fae798e685b2ffebd5f88" prot="public" virt="non-virtual"><scope>Ui_adminLogin</scope><name>lineEdit_User</name></member>
+      <member refid="class_ui__admin_login_1a190de661e21bc7e99eef24774a2f0ef9" prot="public" virt="non-virtual"><scope>Ui_adminLogin</scope><name>pushButton</name></member>
+      <member refid="class_ui__admin_login_1a38af97e90a7d9756215863fd3e1f0d2b" prot="public" virt="non-virtual"><scope>Ui_adminLogin</scope><name>pushButton_back</name></member>
+      <member refid="class_ui__admin_login_1a2a9d242468a1107cbc7b0d89b919dd2e" prot="public" virt="non-virtual"><scope>Ui_adminLogin</scope><name>retranslateUi</name></member>
+      <member refid="class_ui__admin_login_1aa8777c76c85e8a71d5e2641651eda434" prot="public" virt="non-virtual"><scope>Ui_adminLogin</scope><name>setupUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

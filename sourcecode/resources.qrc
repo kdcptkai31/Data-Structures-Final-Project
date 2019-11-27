@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>MapKey.png</file>
+        <file>Baseball.gif</file>
+        <file>baseball_PNG19004.png</file>
+        <file>randy.jpg</file>
+        <file>unknown.png</file>
+    </qresource>
+</RCC>

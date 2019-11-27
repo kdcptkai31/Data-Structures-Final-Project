@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="structsouvenir" kind="struct" language="C++" prot="public">
+    <compoundname>souvenir</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsouvenir_1a11ff479446aca442ad0f7b27b2858d2b" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString souvenir::teamName</definition>
+        <argsstring></argsstring>
+        <name>teamName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="28" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsouvenir_1a9859a996aa4d5621cc0115fa865589fd" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString souvenir::stadiumName</definition>
+        <argsstring></argsstring>
+        <name>stadiumName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="29" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsouvenir_1aa71032f5c7931e1364b169359ecf1c91" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString souvenir::itemName</definition>
+        <argsstring></argsstring>
+        <name>itemName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="30" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsouvenir_1adfae205676c03d58766a59a230c2d5db" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int souvenir::price</definition>
+        <argsstring></argsstring>
+        <name>price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="31" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" line="27" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/souvenirwindow.h" bodystart="27" bodyend="32"/>
+    <listofallmembers>
+      <member refid="structsouvenir_1aa71032f5c7931e1364b169359ecf1c91" prot="public" virt="non-virtual"><scope>souvenir</scope><name>itemName</name></member>
+      <member refid="structsouvenir_1adfae205676c03d58766a59a230c2d5db" prot="public" virt="non-virtual"><scope>souvenir</scope><name>price</name></member>
+      <member refid="structsouvenir_1a9859a996aa4d5621cc0115fa865589fd" prot="public" virt="non-virtual"><scope>souvenir</scope><name>stadiumName</name></member>
+      <member refid="structsouvenir_1a11ff479446aca442ad0f7b27b2858d2b" prot="public" virt="non-virtual"><scope>souvenir</scope><name>teamName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui_1_1login" kind="class" language="C++" prot="public">
+    <compoundname>Ui::login</compoundname>
+    <basecompoundref refid="class_ui__login" prot="public" virt="non-virtual">Ui_login</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="43">
+        <label>Ui_login</label>
+        <link refid="class_ui__login"/>
+      </node>
+      <node id="42">
+        <label>Ui::login</label>
+        <link refid="class_ui_1_1login"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>Ui_login</label>
+        <link refid="class_ui__login"/>
+      </node>
+      <node id="44">
+        <label>Ui::login</label>
+        <link refid="class_ui_1_1login"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="116" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="116" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_ui__login_1a4c0d02992de5f164908ec9c0212fce9e" prot="public" virt="non-virtual"><scope>Ui::login</scope><name>label</name></member>
+      <member refid="class_ui__login_1aafa8b63c8fb67dbe235558b4eb0a4d1b" prot="public" virt="non-virtual"><scope>Ui::login</scope><name>label_2</name></member>
+      <member refid="class_ui__login_1a9dd6304aaa11bf305644656b13163538" prot="public" virt="non-virtual"><scope>Ui::login</scope><name>label_3</name></member>
+      <member refid="class_ui__login_1ac07cd85b50948adc854e0d73799c1dd8" prot="public" virt="non-virtual"><scope>Ui::login</scope><name>LoginButton</name></member>
+      <member refid="class_ui__login_1ab63f926716a6fa60be3dee19da9ebb53" prot="public" virt="non-virtual"><scope>Ui::login</scope><name>pushButton_viewData</name></member>
+      <member refid="class_ui__login_1ab9fc8edafc04ce1be3b383c6db911713" prot="public" virt="non-virtual"><scope>Ui::login</scope><name>retranslateUi</name></member>
+      <member refid="class_ui__login_1a20807779cb4de233ae2be21daccf4e77" prot="public" virt="non-virtual"><scope>Ui::login</scope><name>setupUi</name></member>
+      <member refid="class_ui__login_1af7aec2853ffa3ebfa9c0898c203c5da9" prot="public" virt="non-virtual"><scope>Ui::login</scope><name>textBrowser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

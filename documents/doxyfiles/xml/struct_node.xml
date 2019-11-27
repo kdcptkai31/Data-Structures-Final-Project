@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_node" kind="struct" language="C++" prot="public">
+    <compoundname>Node</compoundname>
+    <includes refid="graph_8h" local="no">graph.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_node_1ad367b1fbffb895fbdadb3592908286ee" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Node::nodeName</definition>
+        <argsstring></argsstring>
+        <name>nodeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="46" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_node_1af933244c6bb8963a28837c7ed2883b93" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Node::vertex</definition>
+        <argsstring></argsstring>
+        <name>vertex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="47" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_node_1aa1bdec4e775fc578632e6a2dced9e251" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Node::visited</definition>
+        <argsstring></argsstring>
+        <name>visited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="48" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_node_1ad44b2d33d2f2dcfa0accbd4e4a7a19c5" prot="public" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="struct_weight_edge" kindref="compound">WeightEdge</ref> &gt;</type>
+        <definition>QVector&lt;WeightEdge&gt; Node::edges</definition>
+        <argsstring></argsstring>
+        <name>edges</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="49" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="struct_node" kindref="compound">Node</ref> struct Holds the details of a single <ref refid="struct_node" kindref="compound">Node</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="45" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="44" bodyend="50"/>
+    <listofallmembers>
+      <member refid="struct_node_1ad44b2d33d2f2dcfa0accbd4e4a7a19c5" prot="public" virt="non-virtual"><scope>Node</scope><name>edges</name></member>
+      <member refid="struct_node_1ad367b1fbffb895fbdadb3592908286ee" prot="public" virt="non-virtual"><scope>Node</scope><name>nodeName</name></member>
+      <member refid="struct_node_1af933244c6bb8963a28837c7ed2883b93" prot="public" virt="non-virtual"><scope>Node</scope><name>vertex</name></member>
+      <member refid="struct_node_1aa1bdec4e775fc578632e6a2dced9e251" prot="public" virt="non-virtual"><scope>Node</scope><name>visited</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

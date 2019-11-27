@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_stadium" kind="struct" language="C++" prot="public">
+    <compoundname>Stadium</compoundname>
+    <includes refid="mainwindow_8h" local="no">mainwindow.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_stadium_1a670bca1f096388175dc6997573a408da" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Stadium::teamName</definition>
+        <argsstring></argsstring>
+        <name>teamName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="24" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stadium_1a3b2c399a2f9ab723f6e600f1ed5cdf95" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Stadium::stadiumName</definition>
+        <argsstring></argsstring>
+        <name>stadiumName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="25" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stadium_1a380740d66c210443a0e8835d42f99485" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Stadium::seatingCapacity</definition>
+        <argsstring></argsstring>
+        <name>seatingCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="26" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stadium_1aec9d2aca43177ea944695ac9e11a0a7c" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Stadium::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="27" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stadium_1a2f90421608990609256768dccd6f28df" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Stadium::surfaceType</definition>
+        <argsstring></argsstring>
+        <name>surfaceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="28" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stadium_1a52baa16d02b280841e89770597dbd2c8" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Stadium::league</definition>
+        <argsstring></argsstring>
+        <name>league</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="29" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stadium_1a731a69e11ae8cc268e83b4a3c4714076" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Stadium::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="30" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stadium_1a733d73a3b70ea7596ed00686fda6bab3" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Stadium::dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="31" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stadium_1ae8c94fecbcf2b39b6336fac50d4cff2e" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Stadium::typology</definition>
+        <argsstring></argsstring>
+        <name>typology</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="32" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stadium_1ade10df5c0d01cd0987453c60f27a2c0a" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Stadium::roofType</definition>
+        <argsstring></argsstring>
+        <name>roofType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="33" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="struct_stadium" kindref="compound">Stadium</ref> struct The stadium structs holds all the needed data for an individual stadium. This data is consistent to a stadium that is up to valid NFL stats. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="23" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="23" bodyend="34"/>
+    <listofallmembers>
+      <member refid="struct_stadium_1a731a69e11ae8cc268e83b4a3c4714076" prot="public" virt="non-virtual"><scope>Stadium</scope><name>date</name></member>
+      <member refid="struct_stadium_1a733d73a3b70ea7596ed00686fda6bab3" prot="public" virt="non-virtual"><scope>Stadium</scope><name>dist</name></member>
+      <member refid="struct_stadium_1a52baa16d02b280841e89770597dbd2c8" prot="public" virt="non-virtual"><scope>Stadium</scope><name>league</name></member>
+      <member refid="struct_stadium_1aec9d2aca43177ea944695ac9e11a0a7c" prot="public" virt="non-virtual"><scope>Stadium</scope><name>location</name></member>
+      <member refid="struct_stadium_1ade10df5c0d01cd0987453c60f27a2c0a" prot="public" virt="non-virtual"><scope>Stadium</scope><name>roofType</name></member>
+      <member refid="struct_stadium_1a380740d66c210443a0e8835d42f99485" prot="public" virt="non-virtual"><scope>Stadium</scope><name>seatingCapacity</name></member>
+      <member refid="struct_stadium_1a3b2c399a2f9ab723f6e600f1ed5cdf95" prot="public" virt="non-virtual"><scope>Stadium</scope><name>stadiumName</name></member>
+      <member refid="struct_stadium_1a2f90421608990609256768dccd6f28df" prot="public" virt="non-virtual"><scope>Stadium</scope><name>surfaceType</name></member>
+      <member refid="struct_stadium_1a670bca1f096388175dc6997573a408da" prot="public" virt="non-virtual"><scope>Stadium</scope><name>teamName</name></member>
+      <member refid="struct_stadium_1ae8c94fecbcf2b39b6336fac50d4cff2e" prot="public" virt="non-virtual"><scope>Stadium</scope><name>typology</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

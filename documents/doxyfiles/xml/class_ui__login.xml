@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui__login" kind="class" language="C++" prot="public">
+    <compoundname>Ui_login</compoundname>
+    <derivedcompoundref refid="class_ui_1_1login" prot="public" virt="non-virtual">Ui::login</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ui__login_1ac07cd85b50948adc854e0d73799c1dd8" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_login::LoginButton</definition>
+        <argsstring></argsstring>
+        <name>LoginButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="27" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__login_1a4c0d02992de5f164908ec9c0212fce9e" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_login::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="28" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__login_1ab63f926716a6fa60be3dee19da9ebb53" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_login::pushButton_viewData</definition>
+        <argsstring></argsstring>
+        <name>pushButton_viewData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="29" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__login_1af7aec2853ffa3ebfa9c0898c203c5da9" prot="public" static="no" mutable="no">
+        <type>QTextBrowser *</type>
+        <definition>QTextBrowser* Ui_login::textBrowser</definition>
+        <argsstring></argsstring>
+        <name>textBrowser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="30" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__login_1aafa8b63c8fb67dbe235558b4eb0a4d1b" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_login::label_2</definition>
+        <argsstring></argsstring>
+        <name>label_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="31" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui__login_1a9dd6304aaa11bf305644656b13163538" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_login::label_3</definition>
+        <argsstring></argsstring>
+        <name>label_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="32" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ui__login_1a20807779cb4de233ae2be21daccf4e77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_login::setupUi</definition>
+        <argsstring>(QDialog *login)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>login</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="34" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="34" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui__login_1ab9fc8edafc04ce1be3b383c6db911713" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_login::retranslateUi</definition>
+        <argsstring>(QDialog *login)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QDialog *</type>
+          <declname>login</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="92" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="92" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="98">
+        <label>Ui_login</label>
+        <link refid="class_ui__login"/>
+      </node>
+      <node id="99">
+        <label>Ui::login</label>
+        <link refid="class_ui_1_1login"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" line="25" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_login.h" bodystart="24" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_ui__login_1a4c0d02992de5f164908ec9c0212fce9e" prot="public" virt="non-virtual"><scope>Ui_login</scope><name>label</name></member>
+      <member refid="class_ui__login_1aafa8b63c8fb67dbe235558b4eb0a4d1b" prot="public" virt="non-virtual"><scope>Ui_login</scope><name>label_2</name></member>
+      <member refid="class_ui__login_1a9dd6304aaa11bf305644656b13163538" prot="public" virt="non-virtual"><scope>Ui_login</scope><name>label_3</name></member>
+      <member refid="class_ui__login_1ac07cd85b50948adc854e0d73799c1dd8" prot="public" virt="non-virtual"><scope>Ui_login</scope><name>LoginButton</name></member>
+      <member refid="class_ui__login_1ab63f926716a6fa60be3dee19da9ebb53" prot="public" virt="non-virtual"><scope>Ui_login</scope><name>pushButton_viewData</name></member>
+      <member refid="class_ui__login_1ab9fc8edafc04ce1be3b383c6db911713" prot="public" virt="non-virtual"><scope>Ui_login</scope><name>retranslateUi</name></member>
+      <member refid="class_ui__login_1a20807779cb4de233ae2be21daccf4e77" prot="public" virt="non-virtual"><scope>Ui_login</scope><name>setupUi</name></member>
+      <member refid="class_ui__login_1af7aec2853ffa3ebfa9c0898c203c5da9" prot="public" virt="non-virtual"><scope>Ui_login</scope><name>textBrowser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

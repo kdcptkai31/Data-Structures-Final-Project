@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_weight_edge" kind="struct" language="C++" prot="public">
+    <compoundname>WeightEdge</compoundname>
+    <includes refid="graph_8h" local="no">graph.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_weight_edge_1a8609e31a002e594d52033e2e8af657d9" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString WeightEdge::connectedNode</definition>
+        <argsstring></argsstring>
+        <name>connectedNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="31" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_weight_edge_1a6e727f6425ae66015c522cde2b9e27fb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WeightEdge::weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="32" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_weight_edge_1a4663ebba7032dd5b445548520de68000" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WeightEdge::operator&lt;</definition>
+        <argsstring>(const WeightEdge &amp;node)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="struct_weight_edge" kindref="compound">WeightEdge</ref> &amp;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="34" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="struct_weight_edge" kindref="compound">WeightEdge</ref> struct Holds the details of one weighted edge. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="30" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="29" bodyend="38"/>
+    <listofallmembers>
+      <member refid="struct_weight_edge_1a8609e31a002e594d52033e2e8af657d9" prot="public" virt="non-virtual"><scope>WeightEdge</scope><name>connectedNode</name></member>
+      <member refid="struct_weight_edge_1a4663ebba7032dd5b445548520de68000" prot="public" virt="non-virtual"><scope>WeightEdge</scope><name>operator&lt;</name></member>
+      <member refid="struct_weight_edge_1a6e727f6425ae66015c522cde2b9e27fb" prot="public" virt="non-virtual"><scope>WeightEdge</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

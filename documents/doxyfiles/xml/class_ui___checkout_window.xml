@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_ui___checkout_window" kind="class" language="C++" prot="public">
+    <compoundname>Ui_CheckoutWindow</compoundname>
+    <derivedcompoundref refid="class_ui_1_1_checkout_window" prot="public" virt="non-virtual">Ui::CheckoutWindow</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ui___checkout_window_1a16e806d0d1dfbe91d9c587e74ae779b2" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_CheckoutWindow::infoLabel</definition>
+        <argsstring></argsstring>
+        <name>infoLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="28" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___checkout_window_1a700a00c5fb01e2e765fdfb69e4f37db0" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_CheckoutWindow::cardNum</definition>
+        <argsstring></argsstring>
+        <name>cardNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="29" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___checkout_window_1a04080e7005b381f952831c2cb19607ff" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_CheckoutWindow::label_2</definition>
+        <argsstring></argsstring>
+        <name>label_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="30" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___checkout_window_1abbbfa64f1df7637a048346f3f378f576" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_CheckoutWindow::month</definition>
+        <argsstring></argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="31" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___checkout_window_1aeafbaa39ed38da88a2d670d0ffcac02f" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Ui_CheckoutWindow::year</definition>
+        <argsstring></argsstring>
+        <name>year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="32" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___checkout_window_1aedba99e9692bfc6cfc12471268610996" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Ui_CheckoutWindow::CVV</definition>
+        <argsstring></argsstring>
+        <name>CVV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="33" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___checkout_window_1a48cd1d8c2c3b0421ade0cf14fc2ab0d9" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Ui_CheckoutWindow::label_3</definition>
+        <argsstring></argsstring>
+        <name>label_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="34" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___checkout_window_1a584353a58c94165df30991df4b568ee1" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_CheckoutWindow::pushButton</definition>
+        <argsstring></argsstring>
+        <name>pushButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="35" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui___checkout_window_1a2f25585d6f8527481b9d813edf14b672" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Ui_CheckoutWindow::pushButton_2</definition>
+        <argsstring></argsstring>
+        <name>pushButton_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="36" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ui___checkout_window_1afa2930c4b8bed1675a960033ad7dfb75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_CheckoutWindow::setupUi</definition>
+        <argsstring>(QWidget *CheckoutWindow)</argsstring>
+        <name>setupUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>CheckoutWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="38" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="38" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui___checkout_window_1aa4d7330945649474f7dd04f05e3a884d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ui_CheckoutWindow::retranslateUi</definition>
+        <argsstring>(QWidget *CheckoutWindow)</argsstring>
+        <name>retranslateUi</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>CheckoutWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="86" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="86" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="92">
+        <label>Ui_CheckoutWindow</label>
+        <link refid="class_ui___checkout_window"/>
+      </node>
+      <node id="93">
+        <label>Ui::CheckoutWindow</label>
+        <link refid="class_ui_1_1_checkout_window"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" line="26" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/ui_checkoutwindow.h" bodystart="25" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_ui___checkout_window_1a700a00c5fb01e2e765fdfb69e4f37db0" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>cardNum</name></member>
+      <member refid="class_ui___checkout_window_1aedba99e9692bfc6cfc12471268610996" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>CVV</name></member>
+      <member refid="class_ui___checkout_window_1a16e806d0d1dfbe91d9c587e74ae779b2" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>infoLabel</name></member>
+      <member refid="class_ui___checkout_window_1a04080e7005b381f952831c2cb19607ff" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>label_2</name></member>
+      <member refid="class_ui___checkout_window_1a48cd1d8c2c3b0421ade0cf14fc2ab0d9" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>label_3</name></member>
+      <member refid="class_ui___checkout_window_1abbbfa64f1df7637a048346f3f378f576" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>month</name></member>
+      <member refid="class_ui___checkout_window_1a584353a58c94165df30991df4b568ee1" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>pushButton</name></member>
+      <member refid="class_ui___checkout_window_1a2f25585d6f8527481b9d813edf14b672" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>pushButton_2</name></member>
+      <member refid="class_ui___checkout_window_1aa4d7330945649474f7dd04f05e3a884d" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>retranslateUi</name></member>
+      <member refid="class_ui___checkout_window_1afa2930c4b8bed1675a960033ad7dfb75" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>setupUi</name></member>
+      <member refid="class_ui___checkout_window_1aeafbaa39ed38da88a2d670d0ffcac02f" prot="public" virt="non-virtual"><scope>Ui_CheckoutWindow</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

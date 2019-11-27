@@ -1,0 +1,83 @@
+\hypertarget{classlogin}{}\section{login Class Reference}
+\label{classlogin}\index{login@{login}}
+
+
+The login class handles login information, the program checks the credentials and determines if the account is an admin or traveler. The class also allows the user to add an account.  
+
+
+
+
+{\ttfamily \#include $<$login.\+h$>$}
+
+
+
+Inheritance diagram for login\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=131pt]{classlogin__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for login\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=131pt]{classlogin__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlogin_a4bea95f394a7f5709d79b13455881602}{login}} (Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classlogin_a4bea95f394a7f5709d79b13455881602}{login\+::login}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classlogin_a4086fe44ad1e40447a0bebbc9b8b3c14}\label{classlogin_a4086fe44ad1e40447a0bebbc9b8b3c14}} 
+\mbox{\hyperlink{classlogin_a4086fe44ad1e40447a0bebbc9b8b3c14}{$\sim$login}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classlogin_a4086fe44ad1e40447a0bebbc9b8b3c14}{login\+::$\sim$login}} Destructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classlogin_adcc8c00bf61ba4cc79454cea09cb97e1}\label{classlogin_adcc8c00bf61ba4cc79454cea09cb97e1}} 
+bool \mbox{\hyperlink{classlogin_adcc8c00bf61ba4cc79454cea09cb97e1}{is\+Account}} (Q\+String name\+In, Q\+String pass\+In)
+\begin{DoxyCompactList}\small\item\em is\+Account checks if the user is a traveler. $\ast$/ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classlogin_ab004af3250f9dc29d1e9a9448c3bba27}\label{classlogin_ab004af3250f9dc29d1e9a9448c3bba27}} 
+bool \mbox{\hyperlink{classlogin_ab004af3250f9dc29d1e9a9448c3bba27}{is\+Admin}} (Q\+String name\+In, Q\+String pass\+In)
+\begin{DoxyCompactList}\small\item\em is\+Admin checks to see if the user is an admin. $\ast$/ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classlogin_ae57494ecbbb2ad9f0fdec03ce65af336}\label{classlogin_ae57494ecbbb2ad9f0fdec03ce65af336}} 
+void \mbox{\hyperlink{classlogin_ae57494ecbbb2ad9f0fdec03ce65af336}{add\+Account}} (Q\+String name\+In, Q\+String pass\+In, bool admin\+In)
+\begin{DoxyCompactList}\small\item\em add\+Account allows the user to add a new account. $\ast$/ \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The login class handles login information, the program checks the credentials and determines if the account is an admin or traveler. The class also allows the user to add an account. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classlogin_a4bea95f394a7f5709d79b13455881602}\label{classlogin_a4bea95f394a7f5709d79b13455881602}} 
+\index{login@{login}!login@{login}}
+\index{login@{login}!login@{login}}
+\subsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily login\+::login (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\mbox{\hyperlink{classlogin_a4bea95f394a7f5709d79b13455881602}{login\+::login}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The standard login window ui \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{classlogin_a4bea95f394a7f5709d79b13455881602_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/cptka/\+Dropbox/cs1d/\+C\+S1\+D-\/\+Project2/sourcecode/login.\+h\item 
+C\+:/\+Users/cptka/\+Dropbox/cs1d/\+C\+S1\+D-\/\+Project2/sourcecode/login.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_depth_holder" kind="struct" language="C++" prot="public">
+    <compoundname>DepthHolder</compoundname>
+    <includes refid="graph_8h" local="no">graph.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_depth_holder_1ae1bc7b8b045c5ae3e8093f6f4e6d7428" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DepthHolder::discoveryTotal</definition>
+        <argsstring></argsstring>
+        <name>discoveryTotal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="56" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_depth_holder_1a5930ad6e00cec15dad298cb3c36afef5" prot="public" static="no" mutable="no">
+        <type>QVector&lt; QString &gt;</type>
+        <definition>QVector&lt;QString&gt; DepthHolder::depthList</definition>
+        <argsstring></argsstring>
+        <name>depthList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="57" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="struct_depth_holder" kindref="compound">DepthHolder</ref> struct. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" line="55" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/graph.h" bodystart="55" bodyend="58"/>
+    <listofallmembers>
+      <member refid="struct_depth_holder_1a5930ad6e00cec15dad298cb3c36afef5" prot="public" virt="non-virtual"><scope>DepthHolder</scope><name>depthList</name></member>
+      <member refid="struct_depth_holder_1ae1bc7b8b045c5ae3e8093f6f4e6d7428" prot="public" virt="non-virtual"><scope>DepthHolder</scope><name>discoveryTotal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

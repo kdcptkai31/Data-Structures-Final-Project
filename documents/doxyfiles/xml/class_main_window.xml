@@ -1,0 +1,1824 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_main_window" kind="class" language="C++" prot="public">
+    <compoundname>MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="mainwindow_8h" local="no">mainwindow.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_main_window_1a7cd04758f576a9f4d93e32e27f01443b" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* MainWindow::prev</definition>
+        <argsstring></argsstring>
+        <name>prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="58" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ui_1_1_main_window" kindref="compound">Ui::MainWindow</ref> *</type>
+        <definition>Ui::MainWindow* MainWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="174" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a64ddd1f8e4cc2ae04601edbfa2bdb3a2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_database" kindref="compound">Database</ref> *</type>
+        <definition>Database* MainWindow::database</definition>
+        <argsstring></argsstring>
+        <name>database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="180" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a6708ea1d5eacc4201f592c67f07c4d14" prot="private" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="struct_stadium" kindref="compound">Stadium</ref> &gt;</type>
+        <definition>QVector&lt;Stadium&gt; MainWindow::stadiumList</definition>
+        <argsstring></argsstring>
+        <name>stadiumList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="182" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1acea0940bfa6d28946680a60409c63dc4" prot="private" static="no" mutable="no">
+        <type>QVector&lt; QString &gt;</type>
+        <definition>QVector&lt;QString&gt; MainWindow::customTripNameList</definition>
+        <argsstring></argsstring>
+        <name>customTripNameList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="183" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ad42c706a73b26b1f96b44547280aa181" prot="private" static="no" mutable="no">
+        <type>QVector&lt; QString &gt;</type>
+        <definition>QVector&lt;QString&gt; MainWindow::completeTripNameList</definition>
+        <argsstring></argsstring>
+        <name>completeTripNameList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="184" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a740cc921097ab64576eaa7533e5e8548" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph" kindref="compound">Graph</ref></type>
+        <definition>Graph MainWindow::stadiumGraph</definition>
+        <argsstring></argsstring>
+        <name>stadiumGraph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="185" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ab9b8afd3d83624a08c5e39dcaf68b8c1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_form" kindref="compound">Form</ref></type>
+        <definition>Form MainWindow::test</definition>
+        <argsstring></argsstring>
+        <name>test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="186" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1aca38fb45854219ae2ab124bc648270e5" prot="private" static="no" mutable="no">
+        <type><ref refid="classsouvenirwindow" kindref="compound">souvenirwindow</ref></type>
+        <definition>souvenirwindow MainWindow::shop</definition>
+        <argsstring></argsstring>
+        <name>shop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="187" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1af0cfe5e9fb747efff70f2e7c2ac86368" prot="private" static="no" mutable="no">
+        <type><ref refid="classadmin_login" kindref="compound">adminLogin</ref> *</type>
+        <definition>adminLogin* MainWindow::Login</definition>
+        <argsstring></argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="188" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ab1900746dcdb5f8ff93a0f9190f1a716" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MainWindow::numStadiums</definition>
+        <argsstring></argsstring>
+        <name>numStadiums</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="189" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a8c92e8e90c6b25771dc284ccc34202e3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbTN</definition>
+        <argsstring></argsstring>
+        <name>rbTN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="199" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ad21f24ca636a8b7c45c87d774902a1a3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbSN</definition>
+        <argsstring></argsstring>
+        <name>rbSN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="200" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1afeddc8ef36efdd2d47c97ec515cbf633" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbSC</definition>
+        <argsstring></argsstring>
+        <name>rbSC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="201" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ac9d0cf247a0a9a98d441d9ac0aefdbd3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbL</definition>
+        <argsstring></argsstring>
+        <name>rbL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="202" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a43c25cdedef0b31ebc8cc2d03be818e6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbC</definition>
+        <argsstring></argsstring>
+        <name>rbC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="203" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1af2a2050d5023f1512623d736144b6238" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbST</definition>
+        <argsstring></argsstring>
+        <name>rbST</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="204" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a6988b267203f4e5276223c609199a5b9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbSRT</definition>
+        <argsstring></argsstring>
+        <name>rbSRT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="205" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1aff9fd84c748022c6366a0c46aea1ba1f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbDT</definition>
+        <argsstring></argsstring>
+        <name>rbDT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="206" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1afb3ab6ce60562ec025d707af88301a0b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbDE</definition>
+        <argsstring></argsstring>
+        <name>rbDE</name>
+        <initializer>=true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="207" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a8580b3d4fb88de874d22f534b4a231f2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbTP</definition>
+        <argsstring></argsstring>
+        <name>rbTP</name>
+        <initializer>=true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="208" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a8b9ba1c9b6c046c771baf18583022bb2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbAC</definition>
+        <argsstring></argsstring>
+        <name>rbAC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="209" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a28d04086eeb19973161db4ba53efa590" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbNC</definition>
+        <argsstring></argsstring>
+        <name>rbNC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="210" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a88a474885dce0135169fc62b8d3b8fcd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbO</definition>
+        <argsstring></argsstring>
+        <name>rbO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="211" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a34fd439727fd1c33dec3268297e0fe54" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbF</definition>
+        <argsstring></argsstring>
+        <name>rbF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="212" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1aa5dca964ab4d997f461db30dce549203" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbR</definition>
+        <argsstring></argsstring>
+        <name>rbR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="213" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a5141c3fc2ea1b8e0a5df07fc45a63456" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::attPark</definition>
+        <argsstring></argsstring>
+        <name>attPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="217" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a1f1bab3fa109fd154af81afe81172444" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::angelStadium</definition>
+        <argsstring></argsstring>
+        <name>angelStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="218" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a35df6e0d0d9b85fe7f076c50f6b03951" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::buschStadium</definition>
+        <argsstring></argsstring>
+        <name>buschStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="219" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a1f45d67b50f81d32031a510580081fda" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::chaseField</definition>
+        <argsstring></argsstring>
+        <name>chaseField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="220" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a747dee9f2f9216b1a97a6fc6b5e55500" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::citiField</definition>
+        <argsstring></argsstring>
+        <name>citiField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="221" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a7ba771b800549c3797386ffe64d66308" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::citizensBankPark</definition>
+        <argsstring></argsstring>
+        <name>citizensBankPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="222" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1af771a13ff30287302b95b8719a2fc8fb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::comericaPark</definition>
+        <argsstring></argsstring>
+        <name>comericaPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="223" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a1005b6879cff8c2cf23526345633dde5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::coorsField</definition>
+        <argsstring></argsstring>
+        <name>coorsField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="224" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1af5af1e0e543801bf091f018607fa9b6b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::dodgerStadium</definition>
+        <argsstring></argsstring>
+        <name>dodgerStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="225" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ab0305a0afae739a260df07722169169f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::fenwayPark</definition>
+        <argsstring></argsstring>
+        <name>fenwayPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="226" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ae16cfa2eb33e07f85d35e677552163d1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::glodeLifePark</definition>
+        <argsstring></argsstring>
+        <name>glodeLifePark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="227" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ac2333ef61ff5d29cab36f681445d448b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::greatAmericaBallPark</definition>
+        <argsstring></argsstring>
+        <name>greatAmericaBallPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="228" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1aba4d11002106e7f800ca08abf4b7b0f7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::guranteedRateField</definition>
+        <argsstring></argsstring>
+        <name>guranteedRateField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="229" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ad468b495def19d36ff12d6f3d2d55cb6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::kauffmanStadium</definition>
+        <argsstring></argsstring>
+        <name>kauffmanStadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="230" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a975da79dffe3ba60fb59c07f09b65da2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::marlinsPark</definition>
+        <argsstring></argsstring>
+        <name>marlinsPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="231" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a78b67805644cd21dcf756eb637c4f015" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::millerPark</definition>
+        <argsstring></argsstring>
+        <name>millerPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="232" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a9d5b84403ad8dbd37e96bf386a3cfc6d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::minuteMaidPark</definition>
+        <argsstring></argsstring>
+        <name>minuteMaidPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="233" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a4a3284d88472f8c9d13fd75a15f8a80e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::nationalsPark</definition>
+        <argsstring></argsstring>
+        <name>nationalsPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="234" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a70bb64e880364ef87dc9815ce74b48e0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::oaklandAlamedaCountyColiseum</definition>
+        <argsstring></argsstring>
+        <name>oaklandAlamedaCountyColiseum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="235" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a4eadcc61c0790cdc2560704da7e7dfe4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::oriolePark</definition>
+        <argsstring></argsstring>
+        <name>oriolePark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="236" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1aac2dc5bc3fa4e3a9ea058b72b335409e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::pncPark</definition>
+        <argsstring></argsstring>
+        <name>pncPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="237" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a5d645ad33553cb8d1df2a85024a6293f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::petcoPark</definition>
+        <argsstring></argsstring>
+        <name>petcoPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="238" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a0dda201d7940d4d8acd171f69b4b5a52" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::progressiveField</definition>
+        <argsstring></argsstring>
+        <name>progressiveField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="239" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ae317eefab9dac8e1312589f6bec006a3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rogersCentre</definition>
+        <argsstring></argsstring>
+        <name>rogersCentre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="240" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1afb344e31257bf8966c24c699a7d90349" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::safecoField</definition>
+        <argsstring></argsstring>
+        <name>safecoField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="241" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a35cec32edb186506d8fdb5d6e40a1a16" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::sunTrustPark</definition>
+        <argsstring></argsstring>
+        <name>sunTrustPark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="242" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a62a828e2367833c10fe080640fece1d4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::targetField</definition>
+        <argsstring></argsstring>
+        <name>targetField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="243" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a8ea164dad68eafce71032b876f4fbf0b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::tropicanaField</definition>
+        <argsstring></argsstring>
+        <name>tropicanaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="244" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ac51716d52a47ca8d31832400943eb132" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::wrigleyField</definition>
+        <argsstring></argsstring>
+        <name>wrigleyField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="245" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a7bb43beb007a83451ce9a0e8da16b0e3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::yankeeSadium</definition>
+        <argsstring></argsstring>
+        <name>yankeeSadium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="246" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ab45cefd198a904c53f8857514406f4e1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbUSBank</definition>
+        <argsstring></argsstring>
+        <name>rbUSBank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="247" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a0706f983d3638d4c8b8f30377cca722c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::rbUniversityPhoenix</definition>
+        <argsstring></argsstring>
+        <name>rbUniversityPhoenix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="248" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::MainWindow</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>MainWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" kindref="member">MainWindow::MainWindow</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Spawns the main window and handles button assignment and all basic UI functionalities </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="44" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="11" bodyend="82"/>
+        <references refid="class_graph_1a389281c21ce4288c795f303532d0379a" compoundref="graph_8cpp" startline="139" endline="193">Graph::SetMatrix</references>
+        <references refid="class_graph_1a3102766a44bdc521d67dc1ac57c948b4" compoundref="graph_8cpp" startline="130" endline="133">Graph::GetNodeName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::~MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~MainWindow</name>
+        <briefdescription>
+<para><ref refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" kindref="member">MainWindow::~MainWindow</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="45" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1afd74441a225bb4ec71795a08dea80c52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::LoadStadiumList</definition>
+        <argsstring>()</argsstring>
+        <name>LoadStadiumList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="46" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="96" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1a4d5a7c437593a4cc79659e886e2aeb1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::LoadStadiumGraph</definition>
+        <argsstring>()</argsstring>
+        <name>LoadStadiumGraph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="47" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="130" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1aa956d021cb1de86e66b8aebfd2b12bbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::PopulateTable</definition>
+        <argsstring>()</argsstring>
+        <name>PopulateTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="48" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="330" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1ac332c4edeac0bc6a9bb94f142c362b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::UpdateTableConferences</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTableConferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="49" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="458" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1a1981d9de67b6f6cc2e0671831efbdf01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::UpdateTableRoofTypes</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTableRoofTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="50" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="583" bodyend="706"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1a57fc01cf6d6d5de89d4cab95c295ba7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::UpdateCustomTripTable</definition>
+        <argsstring>(QString nodeName, bool valid)</argsstring>
+        <name>UpdateCustomTripTable</name>
+        <param>
+          <type>QString</type>
+          <declname>nodeName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>valid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="52" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="766" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1a0ec1e8ea402d14f4324599507162976e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::UpdateCompleteTripTable</definition>
+        <argsstring>(QString nodeName)</argsstring>
+        <name>UpdateCompleteTripTable</name>
+        <param>
+          <type>QString</type>
+          <declname>nodeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="53" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="807" bodyend="819"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1acbbb539ca5d395a4aeb5ca5a6e8a42f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVector&lt; <ref refid="struct_stadium" kindref="compound">Stadium</ref> &gt;</type>
+        <definition>QVector&lt; Stadium &gt; MainWindow::GetConferenceList</definition>
+        <argsstring>()</argsstring>
+        <name>GetConferenceList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="55" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="169" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1aa2f387d72f93e084c2ae9022bfe7ab8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVector&lt; <ref refid="struct_stadium" kindref="compound">Stadium</ref> &gt;</type>
+        <definition>QVector&lt; Stadium &gt; MainWindow::GetRoofTypeList</definition>
+        <argsstring>()</argsstring>
+        <name>GetRoofTypeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="56" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="204" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1a5bdb634641165366ed13cca90183dae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MainWindow::GetColumns</definition>
+        <argsstring>()</argsstring>
+        <name>GetColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="57" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="279" bodyend="324"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_main_window_1a7ff90020ac5016c12078417ffa59660c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbTN_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbTN_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbTN_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="63" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="828" bodyend="832"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ace903f98641ae1513f9eca3ea9617ac8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbSN_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbSN_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbSN_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="65" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="837" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a7f6021911f9ec2a3d6dba36debce9183" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbSC_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbSC_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbSC_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="67" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="846" bodyend="850"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1acf6a930207dad3340f5afb007f3ea3f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbL_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbL_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbL_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="69" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="855" bodyend="859"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1aa1e1e29da6abd2410f9c54ca0a6eeafa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbC_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbC_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbC_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="71" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="864" bodyend="868"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a03e45ad2d13a2972153c6f55319bca7b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbST_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbST_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbST_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="73" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="873" bodyend="877"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1abfa298dc872913fcb3812a4a256291c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbSRT_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbSRT_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbSRT_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="75" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="882" bodyend="886"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ae139544136655eebfe1966878b4be597" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbSP_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbSP_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbSP_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="77" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="891" bodyend="895"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a6be6445f37c7d7beb0adc310b4d61f6f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbAC_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbAC_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbAC_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="79" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="900" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a8ad9e315bbc42af8d5546db65190f83f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbNC_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbNC_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbNC_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="81" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="909" bodyend="913"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a9e8983b2835f143aeb2ba2775b789ab2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_editTeamSearch_editingFinished</definition>
+        <argsstring>()</argsstring>
+        <name>on_editTeamSearch_editingFinished</name>
+        <briefdescription>
+<para>MainWindow::on_editTeamSearch_editingFinished Basic function to support team searching via search option. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="83" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="712" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ae43380b9e515df10675c32a22ffb2040" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbO_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbO_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbO_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="85" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="918" bodyend="922"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a4912f3b354cdbf6a73211d5a9849d986" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbF_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbF_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbF_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="87" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="927" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1aff1d0258d324763c15b8a4c1bc099f98" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbR_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbR_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbR_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="89" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="936" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ae20394593e6886cb44fef4df39f0f5f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_attPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_attPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbArrowhead_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="91" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="949" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ae78bc407514e7cf7a05dcca8f4bb513c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_angelStadium_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_angelStadium_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbATT_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="93" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="965" bodyend="976"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1aa36f5110ae2126c4715a6d7258101f9f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_buschStadium_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_buschStadium_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbBankAmerica_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="95" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="981" bodyend="992"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a3ae92a2311eab64c02c10f922605dec4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_chaseField_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_chaseField_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbCenturyLink_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="97" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="997" bodyend="1008"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a958a6ec9a66e8a2d853208f3f2471f10" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_citiField_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_citiField_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbEverBank_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="99" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1013" bodyend="1024"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a74504f5adf1cf81d5f101aae24aff7a0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_citizensBankPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_citizensBankPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbFedEx_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="101" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1029" bodyend="1040"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a9e3fc627732515c1cb075543e79ecf47" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_comericaPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_comericaPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbFirstEnergy_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="103" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1045" bodyend="1056"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ab3c6c3a6a48e73411439aa057343d92f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_coorsField_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_coorsField_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbFord_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="105" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1061" bodyend="1072"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1af9117e44d4cf52ced395e2c408bc1a96" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_dodgerStadium_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_dodgerStadium_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbGeorgia_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="107" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1077" bodyend="1088"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ad2f0a3b41bdf4e45cc8634624e9cc33b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_fenwayPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_fenwayPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbGillette_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="109" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1093" bodyend="1104"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1aefdc636b2a725a8f92571d393e0bcdb9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_glodeLifePark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_glodeLifePark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbHardRock_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="111" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1109" bodyend="1120"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1af5e83a5f59d55d2b7f28b16766f52448" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_greatAmericaBallPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_greatAmericaBallPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbHeinz_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="113" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1125" bodyend="1136"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ad36b45dbad4b26ed1abcb286e6ab1f11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_guranteedRateField_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_guranteedRateField_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbRalphWilson_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="115" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1141" bodyend="1152"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a04702921c160ac72537f13832f9000cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_kauffmanStadium_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_kauffmanStadium_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbMetlife_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="117" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1157" bodyend="1168"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a312fbaf45fb7fe491e3cdeb8a9aa4977" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_marlinsPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_marlinsPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbMTBank_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="119" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1173" bodyend="1184"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a4cef80edb064960613f2eea80f8a18c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_millerPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_millerPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbLambeau_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="121" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1189" bodyend="1200"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a8c4c6c2a66cae17437ec3d5d88ee6bfb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_minuteMaidPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_minuteMaidPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbLevis_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="123" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1205" bodyend="1216"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ae342d07bb18ec1d83d0e08d2df1b8106" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_nationalsPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_nationalsPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbLincolnFinancial_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="125" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1221" bodyend="1232"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a9eea9f4de966de8bf70f3c4eba4f2f15" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_oaklandAlamedaCountyColiseum_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_oaklandAlamedaCountyColiseum_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbLosAngeles_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="127" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1237" bodyend="1248"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a2158209fd0d1c7be1f34a175811ba0ff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_oriolePark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_oriolePark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbLucasOil_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="129" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1253" bodyend="1264"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a241681cb1f7589b6c2eb7d6ccd8d304c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pncPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pncPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbMercedesBenz_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="131" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1269" bodyend="1280"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a92f76b29d10fab386d8205c0f0860fe0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_petcoPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_petcoPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbNissan_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="133" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1285" bodyend="1296"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a0985450a09728435843e3ba3fd5c8e48" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_progressiveField_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_progressiveField_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbNRG_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="135" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1301" bodyend="1312"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a355833eac99cb1e29ceceaa7a3ecffbc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rogersCentre_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rogersCentre_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbOaklandAlameda_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="137" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1317" bodyend="1328"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ae95680b8a4c5a67a6cfbf5891ede73c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_safecoField_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_safecoField_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbPaulBrown_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="139" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1333" bodyend="1344"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a1a0757933cf6aa077765fd36e6391c46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_sunTrustPark_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_sunTrustPark_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbQualcomm_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="141" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1349" bodyend="1360"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a2b702829d81f6bddd4957cb33ec7a0d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_targetField_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_targetField_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbRaymond_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="143" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1365" bodyend="1376"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a21273e67c38d6a6612cdaa6862011aea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_tropicanaField_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_tropicanaField_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbSoldier_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="145" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1381" bodyend="1392"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ade61dc126e0da15bb3c657a6107c9b08" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_wrigleyField_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_wrigleyField_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbSportsAuthority_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="147" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1397" bodyend="1408"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a96f38775b5f01a1e4b78f997becaaa3c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_yankeeSadium_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_yankeeSadium_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_rbStubHub_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="149" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1413" bodyend="1424"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a6a98ee3e0ca92bbacdc74c15ac386e06" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_customTripStartButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_customTripStartButton_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_customTripStartButton_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="151" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1430" bodyend="1442"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a2e358229b1b0854cc8515d74299ba93f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_dfsButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_dfsButton_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_dfsButton_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="153" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1447" bodyend="1460"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ad3cdeac90cc9fd8674e5c25115cbb76e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_bfsButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_bfsButton_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_bfsButton_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="155" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1465" bodyend="1475"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a4cae94a81ec1116aaa925946f054f4ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_mstButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_mstButton_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_mstButton_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="157" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1480" bodyend="1485"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a31e15671dc82600eeca911a3e54687ee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_dijkstraButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_dijkstraButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="159" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1487" bodyend="1496"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a95716204cc6ace8ac3ed749e3881b82e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_completeTripButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_completeTripButton_clicked</name>
+        <briefdescription>
+<para>MainWindow::on_completeTripButton_clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="161" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1501" bodyend="1522"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a5896879104e08fc60087707a8066f3dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_totalCapacityButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_totalCapacityButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="163" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1528" bodyend="1560"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a4de79c63c7fa0b8d7c468ac71f20be81" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="165" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1562" bodyend="1568"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a7af7efdf0a62465afb1ff778265ee1d4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbTP_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbTP_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="167" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1570" bodyend="1574"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a1cbdb679b2e744d01c5d3c2891496b79" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_rbDE_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_rbDE_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="169" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1576" bodyend="1580"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1af94e6372d005b6a88d3cca0e5892f18d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_pushButton_back_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_back_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="171" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.cpp" bodystart="1582" bodyend="1587"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_main_window" kindref="compound">MainWindow</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="55">
+        <label>QMainWindow</label>
+      </node>
+      <node id="54">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="57">
+        <label>QMainWindow</label>
+      </node>
+      <node id="56">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" line="40" column="1" bodyfile="C:/Users/cptka/Dropbox/cs1d/CS1D-Project2/sourcecode/mainwindow.h" bodystart="39" bodyend="249"/>
+    <listofallmembers>
+      <member refid="class_main_window_1a1f1bab3fa109fd154af81afe81172444" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>angelStadium</name></member>
+      <member refid="class_main_window_1a5141c3fc2ea1b8e0a5df07fc45a63456" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>attPark</name></member>
+      <member refid="class_main_window_1a35df6e0d0d9b85fe7f076c50f6b03951" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>buschStadium</name></member>
+      <member refid="class_main_window_1a1f45d67b50f81d32031a510580081fda" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>chaseField</name></member>
+      <member refid="class_main_window_1a747dee9f2f9216b1a97a6fc6b5e55500" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>citiField</name></member>
+      <member refid="class_main_window_1a7ba771b800549c3797386ffe64d66308" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>citizensBankPark</name></member>
+      <member refid="class_main_window_1af771a13ff30287302b95b8719a2fc8fb" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>comericaPark</name></member>
+      <member refid="class_main_window_1ad42c706a73b26b1f96b44547280aa181" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>completeTripNameList</name></member>
+      <member refid="class_main_window_1a1005b6879cff8c2cf23526345633dde5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>coorsField</name></member>
+      <member refid="class_main_window_1acea0940bfa6d28946680a60409c63dc4" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>customTripNameList</name></member>
+      <member refid="class_main_window_1a64ddd1f8e4cc2ae04601edbfa2bdb3a2" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>database</name></member>
+      <member refid="class_main_window_1af5af1e0e543801bf091f018607fa9b6b" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>dodgerStadium</name></member>
+      <member refid="class_main_window_1ab0305a0afae739a260df07722169169f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>fenwayPark</name></member>
+      <member refid="class_main_window_1a5bdb634641165366ed13cca90183dae5" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>GetColumns</name></member>
+      <member refid="class_main_window_1acbbb539ca5d395a4aeb5ca5a6e8a42f1" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>GetConferenceList</name></member>
+      <member refid="class_main_window_1aa2f387d72f93e084c2ae9022bfe7ab8a" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>GetRoofTypeList</name></member>
+      <member refid="class_main_window_1ae16cfa2eb33e07f85d35e677552163d1" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>glodeLifePark</name></member>
+      <member refid="class_main_window_1ac2333ef61ff5d29cab36f681445d448b" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>greatAmericaBallPark</name></member>
+      <member refid="class_main_window_1aba4d11002106e7f800ca08abf4b7b0f7" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>guranteedRateField</name></member>
+      <member refid="class_main_window_1ad468b495def19d36ff12d6f3d2d55cb6" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>kauffmanStadium</name></member>
+      <member refid="class_main_window_1a4d5a7c437593a4cc79659e886e2aeb1d" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>LoadStadiumGraph</name></member>
+      <member refid="class_main_window_1afd74441a225bb4ec71795a08dea80c52" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>LoadStadiumList</name></member>
+      <member refid="class_main_window_1af0cfe5e9fb747efff70f2e7c2ac86368" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>Login</name></member>
+      <member refid="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_main_window_1a975da79dffe3ba60fb59c07f09b65da2" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>marlinsPark</name></member>
+      <member refid="class_main_window_1a78b67805644cd21dcf756eb637c4f015" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>millerPark</name></member>
+      <member refid="class_main_window_1a9d5b84403ad8dbd37e96bf386a3cfc6d" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>minuteMaidPark</name></member>
+      <member refid="class_main_window_1a4a3284d88472f8c9d13fd75a15f8a80e" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>nationalsPark</name></member>
+      <member refid="class_main_window_1ab1900746dcdb5f8ff93a0f9190f1a716" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>numStadiums</name></member>
+      <member refid="class_main_window_1a70bb64e880364ef87dc9815ce74b48e0" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>oaklandAlamedaCountyColiseum</name></member>
+      <member refid="class_main_window_1ae78bc407514e7cf7a05dcca8f4bb513c" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_angelStadium_clicked</name></member>
+      <member refid="class_main_window_1ae20394593e6886cb44fef4df39f0f5f7" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_attPark_clicked</name></member>
+      <member refid="class_main_window_1ad3cdeac90cc9fd8674e5c25115cbb76e" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_bfsButton_clicked</name></member>
+      <member refid="class_main_window_1aa36f5110ae2126c4715a6d7258101f9f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_buschStadium_clicked</name></member>
+      <member refid="class_main_window_1a3ae92a2311eab64c02c10f922605dec4" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_chaseField_clicked</name></member>
+      <member refid="class_main_window_1a958a6ec9a66e8a2d853208f3f2471f10" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_citiField_clicked</name></member>
+      <member refid="class_main_window_1a74504f5adf1cf81d5f101aae24aff7a0" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_citizensBankPark_clicked</name></member>
+      <member refid="class_main_window_1a9e3fc627732515c1cb075543e79ecf47" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_comericaPark_clicked</name></member>
+      <member refid="class_main_window_1a95716204cc6ace8ac3ed749e3881b82e" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_completeTripButton_clicked</name></member>
+      <member refid="class_main_window_1ab3c6c3a6a48e73411439aa057343d92f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_coorsField_clicked</name></member>
+      <member refid="class_main_window_1a6a98ee3e0ca92bbacdc74c15ac386e06" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_customTripStartButton_clicked</name></member>
+      <member refid="class_main_window_1a2e358229b1b0854cc8515d74299ba93f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_dfsButton_clicked</name></member>
+      <member refid="class_main_window_1a31e15671dc82600eeca911a3e54687ee" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_dijkstraButton_clicked</name></member>
+      <member refid="class_main_window_1af9117e44d4cf52ced395e2c408bc1a96" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_dodgerStadium_clicked</name></member>
+      <member refid="class_main_window_1a9e8983b2835f143aeb2ba2775b789ab2" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_editTeamSearch_editingFinished</name></member>
+      <member refid="class_main_window_1ad2f0a3b41bdf4e45cc8634624e9cc33b" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_fenwayPark_clicked</name></member>
+      <member refid="class_main_window_1aefdc636b2a725a8f92571d393e0bcdb9" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_glodeLifePark_clicked</name></member>
+      <member refid="class_main_window_1af5e83a5f59d55d2b7f28b16766f52448" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_greatAmericaBallPark_clicked</name></member>
+      <member refid="class_main_window_1ad36b45dbad4b26ed1abcb286e6ab1f11" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_guranteedRateField_clicked</name></member>
+      <member refid="class_main_window_1a04702921c160ac72537f13832f9000cd" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_kauffmanStadium_clicked</name></member>
+      <member refid="class_main_window_1a312fbaf45fb7fe491e3cdeb8a9aa4977" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_marlinsPark_clicked</name></member>
+      <member refid="class_main_window_1a4cef80edb064960613f2eea80f8a18c2" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_millerPark_clicked</name></member>
+      <member refid="class_main_window_1a8c4c6c2a66cae17437ec3d5d88ee6bfb" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_minuteMaidPark_clicked</name></member>
+      <member refid="class_main_window_1a4cae94a81ec1116aaa925946f054f4ce" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_mstButton_clicked</name></member>
+      <member refid="class_main_window_1ae342d07bb18ec1d83d0e08d2df1b8106" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_nationalsPark_clicked</name></member>
+      <member refid="class_main_window_1a9eea9f4de966de8bf70f3c4eba4f2f15" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_oaklandAlamedaCountyColiseum_clicked</name></member>
+      <member refid="class_main_window_1a2158209fd0d1c7be1f34a175811ba0ff" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_oriolePark_clicked</name></member>
+      <member refid="class_main_window_1a92f76b29d10fab386d8205c0f0860fe0" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_petcoPark_clicked</name></member>
+      <member refid="class_main_window_1a241681cb1f7589b6c2eb7d6ccd8d304c" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pncPark_clicked</name></member>
+      <member refid="class_main_window_1a0985450a09728435843e3ba3fd5c8e48" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_progressiveField_clicked</name></member>
+      <member refid="class_main_window_1af94e6372d005b6a88d3cca0e5892f18d" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_back_clicked</name></member>
+      <member refid="class_main_window_1a4de79c63c7fa0b8d7c468ac71f20be81" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_pushButton_clicked</name></member>
+      <member refid="class_main_window_1a6be6445f37c7d7beb0adc310b4d61f6f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbAC_clicked</name></member>
+      <member refid="class_main_window_1aa1e1e29da6abd2410f9c54ca0a6eeafa" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbC_clicked</name></member>
+      <member refid="class_main_window_1a1cbdb679b2e744d01c5d3c2891496b79" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbDE_clicked</name></member>
+      <member refid="class_main_window_1a4912f3b354cdbf6a73211d5a9849d986" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbF_clicked</name></member>
+      <member refid="class_main_window_1acf6a930207dad3340f5afb007f3ea3f0" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbL_clicked</name></member>
+      <member refid="class_main_window_1a8ad9e315bbc42af8d5546db65190f83f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbNC_clicked</name></member>
+      <member refid="class_main_window_1ae43380b9e515df10675c32a22ffb2040" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbO_clicked</name></member>
+      <member refid="class_main_window_1aff1d0258d324763c15b8a4c1bc099f98" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbR_clicked</name></member>
+      <member refid="class_main_window_1a7f6021911f9ec2a3d6dba36debce9183" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbSC_clicked</name></member>
+      <member refid="class_main_window_1ace903f98641ae1513f9eca3ea9617ac8" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbSN_clicked</name></member>
+      <member refid="class_main_window_1ae139544136655eebfe1966878b4be597" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbSP_clicked</name></member>
+      <member refid="class_main_window_1abfa298dc872913fcb3812a4a256291c1" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbSRT_clicked</name></member>
+      <member refid="class_main_window_1a03e45ad2d13a2972153c6f55319bca7b" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbST_clicked</name></member>
+      <member refid="class_main_window_1a7ff90020ac5016c12078417ffa59660c" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbTN_clicked</name></member>
+      <member refid="class_main_window_1a7af7efdf0a62465afb1ff778265ee1d4" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rbTP_clicked</name></member>
+      <member refid="class_main_window_1a355833eac99cb1e29ceceaa7a3ecffbc" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_rogersCentre_clicked</name></member>
+      <member refid="class_main_window_1ae95680b8a4c5a67a6cfbf5891ede73c6" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_safecoField_clicked</name></member>
+      <member refid="class_main_window_1a1a0757933cf6aa077765fd36e6391c46" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_sunTrustPark_clicked</name></member>
+      <member refid="class_main_window_1a2b702829d81f6bddd4957cb33ec7a0d0" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_targetField_clicked</name></member>
+      <member refid="class_main_window_1a5896879104e08fc60087707a8066f3dc" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_totalCapacityButton_clicked</name></member>
+      <member refid="class_main_window_1a21273e67c38d6a6612cdaa6862011aea" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_tropicanaField_clicked</name></member>
+      <member refid="class_main_window_1ade61dc126e0da15bb3c657a6107c9b08" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_wrigleyField_clicked</name></member>
+      <member refid="class_main_window_1a96f38775b5f01a1e4b78f997becaaa3c" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_yankeeSadium_clicked</name></member>
+      <member refid="class_main_window_1a4eadcc61c0790cdc2560704da7e7dfe4" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>oriolePark</name></member>
+      <member refid="class_main_window_1a5d645ad33553cb8d1df2a85024a6293f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>petcoPark</name></member>
+      <member refid="class_main_window_1aac2dc5bc3fa4e3a9ea058b72b335409e" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>pncPark</name></member>
+      <member refid="class_main_window_1aa956d021cb1de86e66b8aebfd2b12bbb" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>PopulateTable</name></member>
+      <member refid="class_main_window_1a7cd04758f576a9f4d93e32e27f01443b" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>prev</name></member>
+      <member refid="class_main_window_1a0dda201d7940d4d8acd171f69b4b5a52" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>progressiveField</name></member>
+      <member refid="class_main_window_1a8b9ba1c9b6c046c771baf18583022bb2" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbAC</name></member>
+      <member refid="class_main_window_1a43c25cdedef0b31ebc8cc2d03be818e6" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbC</name></member>
+      <member refid="class_main_window_1afb3ab6ce60562ec025d707af88301a0b" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbDE</name></member>
+      <member refid="class_main_window_1aff9fd84c748022c6366a0c46aea1ba1f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbDT</name></member>
+      <member refid="class_main_window_1a34fd439727fd1c33dec3268297e0fe54" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbF</name></member>
+      <member refid="class_main_window_1ac9d0cf247a0a9a98d441d9ac0aefdbd3" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbL</name></member>
+      <member refid="class_main_window_1a28d04086eeb19973161db4ba53efa590" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbNC</name></member>
+      <member refid="class_main_window_1a88a474885dce0135169fc62b8d3b8fcd" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbO</name></member>
+      <member refid="class_main_window_1aa5dca964ab4d997f461db30dce549203" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbR</name></member>
+      <member refid="class_main_window_1afeddc8ef36efdd2d47c97ec515cbf633" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbSC</name></member>
+      <member refid="class_main_window_1ad21f24ca636a8b7c45c87d774902a1a3" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbSN</name></member>
+      <member refid="class_main_window_1a6988b267203f4e5276223c609199a5b9" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbSRT</name></member>
+      <member refid="class_main_window_1af2a2050d5023f1512623d736144b6238" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbST</name></member>
+      <member refid="class_main_window_1a8c92e8e90c6b25771dc284ccc34202e3" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbTN</name></member>
+      <member refid="class_main_window_1a8580b3d4fb88de874d22f534b4a231f2" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbTP</name></member>
+      <member refid="class_main_window_1a0706f983d3638d4c8b8f30377cca722c" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbUniversityPhoenix</name></member>
+      <member refid="class_main_window_1ab45cefd198a904c53f8857514406f4e1" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rbUSBank</name></member>
+      <member refid="class_main_window_1ae317eefab9dac8e1312589f6bec006a3" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>rogersCentre</name></member>
+      <member refid="class_main_window_1afb344e31257bf8966c24c699a7d90349" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>safecoField</name></member>
+      <member refid="class_main_window_1aca38fb45854219ae2ab124bc648270e5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>shop</name></member>
+      <member refid="class_main_window_1a740cc921097ab64576eaa7533e5e8548" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>stadiumGraph</name></member>
+      <member refid="class_main_window_1a6708ea1d5eacc4201f592c67f07c4d14" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>stadiumList</name></member>
+      <member refid="class_main_window_1a35cec32edb186506d8fdb5d6e40a1a16" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>sunTrustPark</name></member>
+      <member refid="class_main_window_1a62a828e2367833c10fe080640fece1d4" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>targetField</name></member>
+      <member refid="class_main_window_1ab9b8afd3d83624a08c5e39dcaf68b8c1" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>test</name></member>
+      <member refid="class_main_window_1a8ea164dad68eafce71032b876f4fbf0b" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>tropicanaField</name></member>
+      <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>ui</name></member>
+      <member refid="class_main_window_1a0ec1e8ea402d14f4324599507162976e" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>UpdateCompleteTripTable</name></member>
+      <member refid="class_main_window_1a57fc01cf6d6d5de89d4cab95c295ba7f" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>UpdateCustomTripTable</name></member>
+      <member refid="class_main_window_1ac332c4edeac0bc6a9bb94f142c362b5f" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>UpdateTableConferences</name></member>
+      <member refid="class_main_window_1a1981d9de67b6f6cc2e0671831efbdf01" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>UpdateTableRoofTypes</name></member>
+      <member refid="class_main_window_1ac51716d52a47ca8d31832400943eb132" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>wrigleyField</name></member>
+      <member refid="class_main_window_1a7bb43beb007a83451ce9a0e8da16b0e3" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>yankeeSadium</name></member>
+      <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>~MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

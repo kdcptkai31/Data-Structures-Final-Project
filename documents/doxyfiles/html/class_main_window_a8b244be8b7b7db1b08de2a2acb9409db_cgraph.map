@@ -1,0 +1,5 @@
+<map id="MainWindow::MainWindow" name="MainWindow::MainWindow">
+<area shape="rect" id="node2" href="$class_graph.html#a389281c21ce4288c795f303532d0379a" title="Graph::SetMatrix Sets the matrix with the given specifications. " alt="" coords="247,5,368,32"/>
+<area shape="rect" id="node4" href="$class_graph.html#a3102766a44bdc521d67dc1ac57c948b4" title="Graph::GetNodeName. " alt="" coords="232,56,383,83"/>
+<area shape="rect" id="node3" href="$class_graph.html#a7f7b9f3d4992166ce4b52a1ea7d9c816" title="Graph::GetVertex. " alt="" coords="431,5,555,32"/>
+</map>
